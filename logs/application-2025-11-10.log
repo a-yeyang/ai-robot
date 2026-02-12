@@ -1,0 +1,28 @@
+2025-11-10 21:58:47.000 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-11-10 21:58:47.076 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 71412 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-11-10 21:58:47.078 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-11-10 21:58:48.848 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-10 21:58:48.863 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-10 21:58:48.864 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 21:58:48.864 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-11-10 21:58:48.917 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 21:58:48.917 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1776 ms
+2025-11-10 21:58:49.905 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Using the vector table name: t_vector_store. Is empty: false
+2025-11-10 21:58:49.910 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: t_vector_store in schema: public
+2025-11-10 21:58:49.910 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - vectorTableValidationsEnabled false
+2025-11-10 21:58:50.311 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@109f5dd8
+2025-11-10 21:58:50.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-10 21:58:50.396 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-10 21:58:50.400 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 3.797 seconds (process running for 5.182)
+2025-11-10 22:01:07.977 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10 22:01:07.977 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-10 22:01:07.978 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-10 22:01:08.054 [http-nio-8080-exec-1] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [删除 Markdown 问答文件], 入参: {"id":25,"remark":"犬小哈实战专栏问答文件"}, 请求类: AiCustomerServiceController, 请求方法: updateMarkdownFile =================================== 
+2025-11-10 22:01:08.106 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2025-11-10 22:01:08.250 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@6a0cbc91
+2025-11-10 22:01:08.250 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2025-11-10 22:01:08.338 [http-nio-8080-exec-1] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [删除 Markdown 问答文件], 耗时: 289ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-10 22:32:04.649 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10 22:32:04.652 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-10 22:32:04.654 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown initiated...
+2025-11-10 22:32:04.656 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown completed.

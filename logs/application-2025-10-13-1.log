@@ -1,0 +1,60 @@
+2025-10-13 21:42:22.865 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-13 21:42:22.898 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 258844 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-10-13 21:42:22.902 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-10-13 21:42:23.934 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-13 21:42:23.944 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-13 21:42:23.945 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-13 21:42:23.945 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-13 21:42:23.970 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-13 21:42:23.970 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1039 ms
+2025-10-13 21:42:24.594 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@13cda7c9
+2025-10-13 21:42:24.678 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-13 21:42:24.684 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-13 21:42:24.689 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 2.151 seconds (process running for 2.938)
+2025-10-13 21:43:00.784 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13 21:43:00.789 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-13 21:43:03.140 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-13 21:43:03.161 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 246664 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-10-13 21:43:03.163 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-10-13 21:43:03.848 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-13 21:43:03.856 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-13 21:43:03.857 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-13 21:43:03.857 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-13 21:43:03.882 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-13 21:43:03.882 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 702 ms
+2025-10-13 21:43:04.387 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@13cda7c9
+2025-10-13 21:43:04.461 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-13 21:43:04.467 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-13 21:43:04.471 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 1.515 seconds (process running for 1.979)
+2025-10-13 21:43:33.743 [http-nio-8080-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [Hm_lvt_75062b8ad5f18e178698c68645a1ff82=1756120785,1758363571;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-10-13 21:43:33.749 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13 21:43:33.749 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-13 21:43:33.750 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-13 21:43:33.862 [http-nio-8080-exec-1] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [新建对话], 入参: {"message":"你好"}, 请求类: ChatController, 请求方法: newChat =================================== 
+2025-10-13 21:43:33.922 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2025-10-13 21:43:34.122 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@3c96b568
+2025-10-13 21:43:34.123 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2025-10-13 21:43:34.161 [http-nio-8080-exec-1] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [新建对话], 耗时: 306ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"summary":"你好","uuid":"6cf5ca4f-8486-44c6-8347-36d3aeaade61"}} =================================== 
+2025-10-13 21:43:34.406 [http-nio-8080-exec-5] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [流式对话], 入参: {"message":"你好","chatId":"6cf5ca4f-8486-44c6-8347-36d3aeaade61","networkSearch":false,"modelName":"deepseek-v3","temperature":0.7}, 请求类: ChatController, 请求方法: chat =================================== 
+2025-10-13 21:43:34.433 [http-nio-8080-exec-5] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [流式对话], 耗时: 17ms, 出参: {"scanAvailable":true,"prefetch":-1} =================================== 
+2025-10-13 21:43:34.450 [http-nio-8080-exec-5] INFO  com.quanxiaoha.ai.robot.advisor.CustomChatMemoryAdvisor - ## 自定义聊天记忆 Advisor...
+2025-10-13 21:43:35.636 [boundedElastic-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 
+2025-10-13 21:43:35.652 [boundedElastic-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 你好
+2025-10-13 21:43:35.652 [boundedElastic-1] WARN  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - !!!
+Performing asynchronous handling through the default Spring MVC SimpleAsyncTaskExecutor.
+This executor is not suitable for production use under load.
+Please, configure an AsyncTaskExecutor through the WebMvc config.
+-------------------------------
+!!!
+2025-10-13 21:43:35.754 [boundedElastic-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ！
+2025-10-13 21:43:35.766 [boundedElastic-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 😊 
+2025-10-13 21:43:35.846 [boundedElastic-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 很高兴见到你
+2025-10-13 21:43:35.880 [boundedElastic-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ～有什么可以
+2025-10-13 21:43:35.940 [boundedElastic-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 帮你的吗
+2025-10-13 21:43:35.966 [boundedElastic-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ？
+2025-10-13 21:43:35.967 [boundedElastic-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 
+2025-10-13 21:43:35.967 [boundedElastic-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - 
+==== FULL AI RESPONSE ====
+你好！😊 很高兴见到你～有什么可以帮你的吗？
+========================

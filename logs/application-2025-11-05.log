@@ -1,0 +1,714 @@
+2025-11-05 11:40:08.491 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-11-05 11:40:08.623 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 282104 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-11-05 11:40:08.628 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-11-05 11:40:13.810 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-05 11:40:13.846 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-05 11:40:13.847 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-05 11:40:13.847 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-11-05 11:40:13.958 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-05 11:40:13.959 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5163 ms
+2025-11-05 11:40:17.359 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Using the vector table name: t_vector_store. Is empty: false
+2025-11-05 11:40:17.379 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: t_vector_store in schema: public
+2025-11-05 11:40:17.379 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - vectorTableValidationsEnabled false
+2025-11-05 11:40:18.199 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3af9aa66
+2025-11-05 11:40:18.401 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-05 11:40:18.428 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-05 11:40:18.437 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 11.949 seconds (process running for 15.929)
+2025-11-05 11:45:50.708 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-05 11:45:50.709 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-05 11:45:50.710 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-05 11:45:50.792 [http-nio-8080-exec-2] INFO  com.quanxiaoha.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功, 文件名：整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md -> 存储路径：E:\java_workspace\xiaoha-ai-robot\59dafb29-dcbc-42f8-8f65-0826f744af02-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md
+2025-11-05 11:45:50.912 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2025-11-05 11:45:51.537 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@6bbfa27d
+2025-11-05 11:45:51.539 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2025-11-05 11:45:51.632 [event-handler-1] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## AiCustomerServiceMdUploadedEvent: AiCustomerServiceMdUploadedEvent(id=19, filePath=E:\java_workspace\xiaoha-ai-robot\59dafb29-dcbc-42f8-8f65-0826f744af02-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, metadatas={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=19, fileSize=11942})
+2025-11-05 11:45:51.919 [event-handler-1] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## documents: [Document{id='fe627bb5-e6ea-42c6-8e0d-3ed605be94fc', text='本小节中，我们继续调试与开发前端项目，实现当用户在 “聊天输入框” 填入消息后，点击发送按钮，能够请求后端 /chat/completion  SSE 接口, 获取响应数据，并流式渲染 AI 大模型回复的消息。', media='null', metadata={category=code_inline, title=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求}, score=null}, Document{id='2faf1e06-78ad-4a7b-9862-b5911569d9ca', text='在这之前，ChatInputBox.vue 聊天输入框还有点问题，需要先解决一下，那就是 —— 在聊天对话页中，如下图，当选择 AI 模型选择时，弹出的菜单出现在了下方，导致一部分菜单看不见了，交互上很不友好。我们希望当下方空间不足时，能够在上方弹出。为了实现这个功能，编辑 ChatInputBox.vue 组件，为下拉菜单添加代码如下：', media='null', metadata={category=code_inline, title=下拉框展示问题}, score=null}, Document{id='9c38d6dd-2566-4fc2-9392-7003e1b88f6a', text='       <div class="flex gap-2 relative" ref="leftContainerRef">
+       			// 省略...
+                
+                <!-- 下拉框菜单 -->
+                <div v-if="isModelDropdownOpen" 
+                ref="dropdownRef"
+                :class="['absolute', 'left-0', 'w-48', 'bg-white', 'rounded-lg', 'shadow-lg', 'border', 'border-gray-200', 'z-10', 'overflow-hidden', dropdownPosition]"
+                >
+                    // 省略...
+                </div>
+                
+                // 省略...
+       </div>
+                
+<script setup>
+import { ref, onMounted, onUnmounted, computed, nextTick } from 'vue'
+// 省略...
+
+// 下拉菜单父容器引用
+const leftContainerRef = ref(null);
+
+// 下拉菜单引用
+const dropdownRef = ref(null)
+// 下拉菜单位置
+const dropdownPosition = ref('top-8') // 默认下方
+
+// 下拉菜单显示/隐藏
+const toggleModelDropdown = (event) => {
+  isModelDropdownOpen.value = !isModelDropdownOpen.value
+
+  // 如果下拉菜单显示，则计算位置
+  if (isModelDropdownOpen.value) {
+    nextTick(() => {
+      if (leftContainerRef.value && dropdownRef.value) {
+        // 返回元素相对于视图窗口的位置和尺寸信息
+        const buttonRect = leftContainerRef.value.getBoundingClientRect();
+        // 下拉菜单的实际高度
+        const dropdownHeight = dropdownRef.value.offsetHeight;
+        
+        // 检查下方空间是否足够
+        // 可用空间 = window.innerHeight - buttonRect.bottom
+        // 所需空间 = dropdownHeight
+        // 如果可用空间 < 所需空间，说明下方空间不足
+        if (window.innerHeight - buttonRect.bottom < dropdownHeight) {
+          // 下方空间不足，显示在上方
+          dropdownPosition.value = 'bottom-10';
+        } else {
+          // 下方空间足够，显示在下方
+          dropdownPosition.value = 'top-8';
+        }
+      }
+    })
+  }
+}
+
+// 省略...
+</script>
+', media='null', metadata={category=code_block, lang=}, score=null}, Document{id='5a1210b0-88f9-4f15-84fd-c69c58099e01', text='解释一下新添加的代码： 新建 leftContainerRef 变量，引用下拉菜单的父级 <div> 容器； 新建 dropdownRef 变量，引用下拉菜单本身，用于获取其尺寸； 新建 dropdownPosition 响应式变量，用于控制下拉菜单显示位置，默认为 'top-8'（在触发元素下方）； 编辑 toggleModelDropdown 下拉菜单显示/隐藏方法，追加如果下拉菜单显示，则计算位置的处理逻辑： 使用 nextTick() 确保 DOM 已经更新，可以正确获取元素尺寸； 开始计算下拉框的显示位置，动态设置下拉菜单是显示在上方，还是下方；保存代码后，测试一下，这次在 “聊天对话页” 中，点击选择模型，下拉菜单就能动态显示在上方了：', media='null', metadata={category=code_inline}, score=null}, Document{id='c6ea6c2b-cf32-4856-9376-25ca7c4fb4b4', text='书归正文，回到本小节的主题。在 《4.7节》中，我们使用的是原生的 EventSource 来调用 SSE 接口，实现流式对话效果，但是，它有诸多局限性： 只支持 GET 请求； 无法自定义请求头； 不支持请求体； 有限的错误处理能力；', media='null', metadata={category=code_inline, title=EventSource 的痛点}, score=null}, Document{id='c5835f4c-0a8a-496a-a9dc-ecf58ffdcd4f', text='@microsoft/fetch-event-source 是微软开发的一个 JavaScript 库，提供了基于 Fetch API 的 Server-Sent Events (SSE) 客户端实现。它是对标准 EventSource API 的增强版本，提供了更多的灵活性和控制能力，很好的解决了原生 EventSource  的痛点。在 VSCode 中打开命令行，执行如下命令，安装 fetch-event-source 库：', media='null', metadata={category=code_inline, title=整合 fetch-event-source}, score=null}, Document{id='8fbb2cad-5d68-433d-8cb1-67440acff628', text='npm install --save @microsoft/fetch-event-source
+', media='null', metadata={category=code_block, lang=}, score=null}, Document{id='977d7d18-9a35-4915-8b16-ac38c9364048', text='回到 ChatPage.vue 聊天对话页中，为 <ChatInputBox> 组件添加 v-model 指令，双向绑定到 message 变量上，默认值优先获取首页路由跳转，拿到的 firstMessage 字段, 若为空，则使用空字符串，并在 sendMessage() 发送消息事件方法中，构建请求 SSE 接口所需的请求体，代码如下：', media='null', metadata={category=code_inline, title=构建请求体}, score=null}, Document{id='b0508e19-9280-41d0-8183-fc4e1498b850', text='          <!-- 提问输入框 -->
+          <ChatInputBox
+          v-model="message"
+          containerClass="sticky max-w-3xl mx-auto bg-white bottom-8 left-0 w-full"
+          @sendMessage="sendMessage"
+          />
+          
+          // 省略...
+          
+          
+<script setup>
+// 省略...
+import { useRoute } from 'vue-router'
+
+// 省略...
+
+const route = useRoute()
+
+// 输入的消息
+const message = ref(history.state?.firstMessage || '')
+
+// 对话 ID
+const chatId = ref(route.params.chatId || null)
+
+// 发送消息
+const sendMessage = async (payload) => {
+  // 校验发送的消息不能为空
+  if (!message.value.trim()) return
+
+  console.log('选中的模型:', payload.selectedModel)
+  console.log('是否联网:', payload.isNetworkSearch)
+
+  // 将用户发送的消息添加到 chatList 聊天列表中
+  const userMessage = message.value.trim()
+  chatList.value.push({ role: 'user', content: userMessage })
+
+  // 点击发送按钮后，清空输入框
+  message.value = ''
+
+  try {
+    // 构建请求体
+    const requestBody = {
+      message: userMessage,
+      chatId: chatId.value,
+      modelName: payload.selectedModel?.name,
+      networkSearch: payload.isNetworkSearch
+    }
+
+    // 打印请求体日志
+    console.log(requestBody)
+
+  } catch (error) {
+    console.error('发送消息错误: ', error)
+    // 提示用户 “请求出错”
+    chatList.value[chatList.value.length - 1].content = '抱歉，请求出错了，请稍后重试。'
+    // 滚动到底部
+    scrollToBottom()
+  }
+}
+
+// 省略...
+</script>
+', media='null', metadata={category=code_block, lang=}, score=null}, Document{id='9b168ba9-126b-486b-8c25-95335473366f', text='保存代码，准备来测试一下。在 “聊天对话页” 中，输入一条信息，如 “你好”，点击发送按钮，观察前端控制台日志，确保打印的 requestBody 请求体参数正常：', media='null', metadata={category=code_inline}, score=null}, Document{id='a3dd28c7-d4a7-4203-bbb9-a0832b448c84', text='另外，针对首页输入的消息，点击发送按钮后，跳转到 “聊天对话页” ，也要适配一下：编辑  ChatPage.vue 聊天对话页，添加代码如下，在 onMounted() 生命周期方法中，判断跳转路由时，初始消息 firstMessage 是否为空，若不为空，主动调用 sendMessage() 方法，并将选择的模型、是否联网参数传递过去，代码如下：', media='null', metadata={category=code_inline, title=首页发送的消息}, score=null}, Document{id='84c15285-271d-49ef-8ebd-40a6b20024a1', text='<script setup>
+
+// 省略...
+
+// 导入Pinia store
+import { useChatStore } from '@/stores/chatStore'
+
+// 获取 chat store
+const chatStore = useChatStore()
+
+// 省略...
+
+onMounted(() => {
+  const firstMessage = history.state?.firstMessage
+  // 检查跳转路由时，是否有初始消息
+  if (firstMessage) {
+    message.value = firstMessage
+    // 发送消息
+    sendMessage({
+      selectedModel: chatStore.selectedModel,
+      isNetworkSearch: chatStore.isNetworkSearchSelected
+    })
+  }
+})
+
+// 省略...
+</script>
+', media='null', metadata={category=code_block, lang=}, score=null}, Document{id='5590627c-1e68-4702-8949-c4f26553bf2c', text='请求体构建完毕后，接下来，准备使用 fetch-event-source 库调用后端 SSE 接口，实现流式对话功能，最终效果如下：编辑 ChatPage.vue 聊天对话页，继续补充 sendMessage() 发送消息事件方法中的处理逻辑，代码如下：', media='null', metadata={category=code_inline, title=调用 SSE 接口}, score=null}, Document{id='d1f8c7bc-6acd-4039-a536-b34c3e17b995', text='<script setup>
+// 省略..
+import { fetchEventSource } from '@microsoft/fetch-event-source'
+
+// 省略...
+
+// 发送消息
+const sendMessage = async (payload) => {
+  // 省略...
+
+  // 点击发送按钮后，清空输入框
+  message.value = ''
+
+  // 添加一个占位的回复消息
+  chatList.value.push({ role: 'assistant', content: ''})
+
+  try {
+    // 构建请求体
+    const requestBody = {
+      message: userMessage,
+      chatId: chatId.value,
+      modelName: payload.selectedModel?.name,
+      networkSearch: payload.isNetworkSearch
+    }
+
+    // 响应的回答
+    let responseText = ''
+    // 获取最后一条消息
+    const lastMessage = chatList.value[chatList.value.length - 1]
+
+    const controller = new AbortController()
+    const signal = controller.signal
+
+	// 调用 SSE 流式对话接口
+    fetchEventSource('http://localhost:8080/chat/completion', {
+      method: 'POST',
+      signal: signal,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(requestBody),
+      onmessage(msg) {
+        if (msg.event === '') {
+          // 解析 JSON
+          let parseJson = JSON.parse(msg.data)
+          // 持续追加流式回答
+          responseText += parseJson.v
+
+          // 更新最后一条消息
+          chatList.value[chatList.value.length - 1].content = responseText
+          // 滚动到底部
+          scrollToBottom()
+        }
+        else if (msg.event === 'close') {
+          console.log('-- sse close')
+          controller.abort();
+        }
+      },
+      onerror(err) {
+        throw err;    // 必须 throw 才能停止 
+      }
+    })
+
+
+  } catch (error) {
+    // 省略...
+  }
+
+}
+
+// 省略...
+</script>
+', media='null', metadata={category=code_block, lang=}, score=null}, Document{id='d05de494-8a2f-4b02-8ceb-a48a82aa9919', text='解释一下上述代码中核心部分： 创建 AbortController：AbortController 用于在需要时中止请求。signal 是 AbortController 的一个属性，它将传递给 fetchEventSource 选项，以便在调用 controller.abort() 时中止请求。 调用 fetchEventSource： URL: 'http://localhost:8080/chat/completion' 方法: POST signal: 使用上面创建的 signal，用于控制请求的中止。 headers: 设置请求头，这里指定了 'Content-Type': 'application/json'。 body: 请求体，是一个 JSON 字符串，由 requestBody 对象转换而来。 事件处理： onmessage: 每次接收到服务器发送的事件时触发。事件对象 msg 包含事件类型 event 和数据 data。 如果 msg.event 是空字符串（表示默认的消息事件），则解析 msg.data（假设是 JSON 字符串），然后从解析后的对象中取出 v 属性，将其追加到 responseText 变量中。然后更新 chatList 中最后一条消息的内容为 responseText，并调用 scrollToBottom 函数（将聊天界面滚动到底部）。 如果 msg.event 是 'close'，则表示服务器通知关闭连接，此时调用 controller.abort() 中止请求。 onerror: 当发生错误时触发。这里直接抛出错误，因为根据 fetchEventSource 的文档，在 onerror 中抛出错误会停止重试并终止连接。如果不抛出，库会尝试重连。', media='null', metadata={category=code_inline}, score=null}]
+2025-11-05 11:46:25.349 [http-nio-8080-exec-4] INFO  com.quanxiaoha.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功, 文件名：整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md -> 存储路径：E:\java_workspace\xiaoha-ai-robot\d2a702aa-b5aa-4e01-8277-1e235562bb35-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md
+2025-11-05 11:46:25.357 [event-handler-2] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## AiCustomerServiceMdUploadedEvent: AiCustomerServiceMdUploadedEvent(id=20, filePath=E:\java_workspace\xiaoha-ai-robot\d2a702aa-b5aa-4e01-8277-1e235562bb35-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, metadatas={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=20, fileSize=11942})
+2025-11-05 11:46:25.366 [event-handler-2] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## documents: [Document{id='90259f31-dd26-4f10-b481-b990783d3edf', text='本小节中，我们继续调试与开发前端项目，实现当用户在 “聊天输入框” 填入消息后，点击发送按钮，能够请求后端 /chat/completion  SSE 接口, 获取响应数据，并流式渲染 AI 大模型回复的消息。', media='null', metadata={category=code_inline, title=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求}, score=null}, Document{id='75471b4d-a201-47d3-8746-28f491a1e50f', text='在这之前，ChatInputBox.vue 聊天输入框还有点问题，需要先解决一下，那就是 —— 在聊天对话页中，如下图，当选择 AI 模型选择时，弹出的菜单出现在了下方，导致一部分菜单看不见了，交互上很不友好。我们希望当下方空间不足时，能够在上方弹出。为了实现这个功能，编辑 ChatInputBox.vue 组件，为下拉菜单添加代码如下：', media='null', metadata={category=code_inline, title=下拉框展示问题}, score=null}, Document{id='e372d682-0e22-405b-8cb4-166091df2d54', text='       <div class="flex gap-2 relative" ref="leftContainerRef">
+       			// 省略...
+                
+                <!-- 下拉框菜单 -->
+                <div v-if="isModelDropdownOpen" 
+                ref="dropdownRef"
+                :class="['absolute', 'left-0', 'w-48', 'bg-white', 'rounded-lg', 'shadow-lg', 'border', 'border-gray-200', 'z-10', 'overflow-hidden', dropdownPosition]"
+                >
+                    // 省略...
+                </div>
+                
+                // 省略...
+       </div>
+                
+<script setup>
+import { ref, onMounted, onUnmounted, computed, nextTick } from 'vue'
+// 省略...
+
+// 下拉菜单父容器引用
+const leftContainerRef = ref(null);
+
+// 下拉菜单引用
+const dropdownRef = ref(null)
+// 下拉菜单位置
+const dropdownPosition = ref('top-8') // 默认下方
+
+// 下拉菜单显示/隐藏
+const toggleModelDropdown = (event) => {
+  isModelDropdownOpen.value = !isModelDropdownOpen.value
+
+  // 如果下拉菜单显示，则计算位置
+  if (isModelDropdownOpen.value) {
+    nextTick(() => {
+      if (leftContainerRef.value && dropdownRef.value) {
+        // 返回元素相对于视图窗口的位置和尺寸信息
+        const buttonRect = leftContainerRef.value.getBoundingClientRect();
+        // 下拉菜单的实际高度
+        const dropdownHeight = dropdownRef.value.offsetHeight;
+        
+        // 检查下方空间是否足够
+        // 可用空间 = window.innerHeight - buttonRect.bottom
+        // 所需空间 = dropdownHeight
+        // 如果可用空间 < 所需空间，说明下方空间不足
+        if (window.innerHeight - buttonRect.bottom < dropdownHeight) {
+          // 下方空间不足，显示在上方
+          dropdownPosition.value = 'bottom-10';
+        } else {
+          // 下方空间足够，显示在下方
+          dropdownPosition.value = 'top-8';
+        }
+      }
+    })
+  }
+}
+
+// 省略...
+</script>
+', media='null', metadata={category=code_block, lang=}, score=null}, Document{id='1d7b658b-d65b-496a-bdb1-3157d8ddd251', text='解释一下新添加的代码： 新建 leftContainerRef 变量，引用下拉菜单的父级 <div> 容器； 新建 dropdownRef 变量，引用下拉菜单本身，用于获取其尺寸； 新建 dropdownPosition 响应式变量，用于控制下拉菜单显示位置，默认为 'top-8'（在触发元素下方）； 编辑 toggleModelDropdown 下拉菜单显示/隐藏方法，追加如果下拉菜单显示，则计算位置的处理逻辑： 使用 nextTick() 确保 DOM 已经更新，可以正确获取元素尺寸； 开始计算下拉框的显示位置，动态设置下拉菜单是显示在上方，还是下方；保存代码后，测试一下，这次在 “聊天对话页” 中，点击选择模型，下拉菜单就能动态显示在上方了：', media='null', metadata={category=code_inline}, score=null}, Document{id='aa1acb3c-db71-4159-bd76-00acc59bffcf', text='书归正文，回到本小节的主题。在 《4.7节》中，我们使用的是原生的 EventSource 来调用 SSE 接口，实现流式对话效果，但是，它有诸多局限性： 只支持 GET 请求； 无法自定义请求头； 不支持请求体； 有限的错误处理能力；', media='null', metadata={category=code_inline, title=EventSource 的痛点}, score=null}, Document{id='02890721-671a-4821-8f3e-322e48444750', text='@microsoft/fetch-event-source 是微软开发的一个 JavaScript 库，提供了基于 Fetch API 的 Server-Sent Events (SSE) 客户端实现。它是对标准 EventSource API 的增强版本，提供了更多的灵活性和控制能力，很好的解决了原生 EventSource  的痛点。在 VSCode 中打开命令行，执行如下命令，安装 fetch-event-source 库：', media='null', metadata={category=code_inline, title=整合 fetch-event-source}, score=null}, Document{id='11322181-75d8-41bd-87d7-2e094838485d', text='npm install --save @microsoft/fetch-event-source
+', media='null', metadata={category=code_block, lang=}, score=null}, Document{id='39a028a1-7351-434d-916f-05dc2d4dcdf8', text='回到 ChatPage.vue 聊天对话页中，为 <ChatInputBox> 组件添加 v-model 指令，双向绑定到 message 变量上，默认值优先获取首页路由跳转，拿到的 firstMessage 字段, 若为空，则使用空字符串，并在 sendMessage() 发送消息事件方法中，构建请求 SSE 接口所需的请求体，代码如下：', media='null', metadata={category=code_inline, title=构建请求体}, score=null}, Document{id='daae5503-5c5b-4c9f-9b92-d328a6174d25', text='          <!-- 提问输入框 -->
+          <ChatInputBox
+          v-model="message"
+          containerClass="sticky max-w-3xl mx-auto bg-white bottom-8 left-0 w-full"
+          @sendMessage="sendMessage"
+          />
+          
+          // 省略...
+          
+          
+<script setup>
+// 省略...
+import { useRoute } from 'vue-router'
+
+// 省略...
+
+const route = useRoute()
+
+// 输入的消息
+const message = ref(history.state?.firstMessage || '')
+
+// 对话 ID
+const chatId = ref(route.params.chatId || null)
+
+// 发送消息
+const sendMessage = async (payload) => {
+  // 校验发送的消息不能为空
+  if (!message.value.trim()) return
+
+  console.log('选中的模型:', payload.selectedModel)
+  console.log('是否联网:', payload.isNetworkSearch)
+
+  // 将用户发送的消息添加到 chatList 聊天列表中
+  const userMessage = message.value.trim()
+  chatList.value.push({ role: 'user', content: userMessage })
+
+  // 点击发送按钮后，清空输入框
+  message.value = ''
+
+  try {
+    // 构建请求体
+    const requestBody = {
+      message: userMessage,
+      chatId: chatId.value,
+      modelName: payload.selectedModel?.name,
+      networkSearch: payload.isNetworkSearch
+    }
+
+    // 打印请求体日志
+    console.log(requestBody)
+
+  } catch (error) {
+    console.error('发送消息错误: ', error)
+    // 提示用户 “请求出错”
+    chatList.value[chatList.value.length - 1].content = '抱歉，请求出错了，请稍后重试。'
+    // 滚动到底部
+    scrollToBottom()
+  }
+}
+
+// 省略...
+</script>
+', media='null', metadata={category=code_block, lang=}, score=null}, Document{id='698fab60-5f0d-4d5a-aec0-d2a737ef170f', text='保存代码，准备来测试一下。在 “聊天对话页” 中，输入一条信息，如 “你好”，点击发送按钮，观察前端控制台日志，确保打印的 requestBody 请求体参数正常：', media='null', metadata={category=code_inline}, score=null}, Document{id='64258495-de6f-4e5b-897f-339644a5d585', text='另外，针对首页输入的消息，点击发送按钮后，跳转到 “聊天对话页” ，也要适配一下：编辑  ChatPage.vue 聊天对话页，添加代码如下，在 onMounted() 生命周期方法中，判断跳转路由时，初始消息 firstMessage 是否为空，若不为空，主动调用 sendMessage() 方法，并将选择的模型、是否联网参数传递过去，代码如下：', media='null', metadata={category=code_inline, title=首页发送的消息}, score=null}, Document{id='0826e567-717b-4308-9a62-7f97e6e8227a', text='<script setup>
+
+// 省略...
+
+// 导入Pinia store
+import { useChatStore } from '@/stores/chatStore'
+
+// 获取 chat store
+const chatStore = useChatStore()
+
+// 省略...
+
+onMounted(() => {
+  const firstMessage = history.state?.firstMessage
+  // 检查跳转路由时，是否有初始消息
+  if (firstMessage) {
+    message.value = firstMessage
+    // 发送消息
+    sendMessage({
+      selectedModel: chatStore.selectedModel,
+      isNetworkSearch: chatStore.isNetworkSearchSelected
+    })
+  }
+})
+
+// 省略...
+</script>
+', media='null', metadata={category=code_block, lang=}, score=null}, Document{id='7d7371c4-ad81-4ef2-bc43-94180fd463f0', text='请求体构建完毕后，接下来，准备使用 fetch-event-source 库调用后端 SSE 接口，实现流式对话功能，最终效果如下：编辑 ChatPage.vue 聊天对话页，继续补充 sendMessage() 发送消息事件方法中的处理逻辑，代码如下：', media='null', metadata={category=code_inline, title=调用 SSE 接口}, score=null}, Document{id='88514364-56cd-4b67-b7a7-128fe008a245', text='<script setup>
+// 省略..
+import { fetchEventSource } from '@microsoft/fetch-event-source'
+
+// 省略...
+
+// 发送消息
+const sendMessage = async (payload) => {
+  // 省略...
+
+  // 点击发送按钮后，清空输入框
+  message.value = ''
+
+  // 添加一个占位的回复消息
+  chatList.value.push({ role: 'assistant', content: ''})
+
+  try {
+    // 构建请求体
+    const requestBody = {
+      message: userMessage,
+      chatId: chatId.value,
+      modelName: payload.selectedModel?.name,
+      networkSearch: payload.isNetworkSearch
+    }
+
+    // 响应的回答
+    let responseText = ''
+    // 获取最后一条消息
+    const lastMessage = chatList.value[chatList.value.length - 1]
+
+    const controller = new AbortController()
+    const signal = controller.signal
+
+	// 调用 SSE 流式对话接口
+    fetchEventSource('http://localhost:8080/chat/completion', {
+      method: 'POST',
+      signal: signal,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(requestBody),
+      onmessage(msg) {
+        if (msg.event === '') {
+          // 解析 JSON
+          let parseJson = JSON.parse(msg.data)
+          // 持续追加流式回答
+          responseText += parseJson.v
+
+          // 更新最后一条消息
+          chatList.value[chatList.value.length - 1].content = responseText
+          // 滚动到底部
+          scrollToBottom()
+        }
+        else if (msg.event === 'close') {
+          console.log('-- sse close')
+          controller.abort();
+        }
+      },
+      onerror(err) {
+        throw err;    // 必须 throw 才能停止 
+      }
+    })
+
+
+  } catch (error) {
+    // 省略...
+  }
+
+}
+
+// 省略...
+</script>
+', media='null', metadata={category=code_block, lang=}, score=null}, Document{id='672a2d03-ec6f-4b9f-a6c5-5bb8af1c6755', text='解释一下上述代码中核心部分： 创建 AbortController：AbortController 用于在需要时中止请求。signal 是 AbortController 的一个属性，它将传递给 fetchEventSource 选项，以便在调用 controller.abort() 时中止请求。 调用 fetchEventSource： URL: 'http://localhost:8080/chat/completion' 方法: POST signal: 使用上面创建的 signal，用于控制请求的中止。 headers: 设置请求头，这里指定了 'Content-Type': 'application/json'。 body: 请求体，是一个 JSON 字符串，由 requestBody 对象转换而来。 事件处理： onmessage: 每次接收到服务器发送的事件时触发。事件对象 msg 包含事件类型 event 和数据 data。 如果 msg.event 是空字符串（表示默认的消息事件），则解析 msg.data（假设是 JSON 字符串），然后从解析后的对象中取出 v 属性，将其追加到 responseText 变量中。然后更新 chatList 中最后一条消息的内容为 responseText，并调用 scrollToBottom 函数（将聊天界面滚动到底部）。 如果 msg.event 是 'close'，则表示服务器通知关闭连接，此时调用 controller.abort() 中止请求。 onerror: 当发生错误时触发。这里直接抛出错误，因为根据 fetchEventSource 的文档，在 onerror 中抛出错误会停止重试并终止连接。如果不抛出，库会尝试重连。', media='null', metadata={category=code_inline}, score=null}]
+2025-11-05 11:47:45.126 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-05 11:47:45.129 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-11-05 11:47:45.131 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown initiated...
+2025-11-05 11:47:45.132 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown completed.
+2025-11-05 11:47:47.493 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-11-05 11:47:47.524 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 293144 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-11-05 11:47:47.527 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-11-05 11:47:48.405 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-05 11:47:48.414 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-05 11:47:48.415 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-05 11:47:48.415 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-11-05 11:47:48.443 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-05 11:47:48.443 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 893 ms
+2025-11-05 11:47:49.056 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Using the vector table name: t_vector_store. Is empty: false
+2025-11-05 11:47:49.059 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: t_vector_store in schema: public
+2025-11-05 11:47:49.059 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - vectorTableValidationsEnabled false
+2025-11-05 11:47:49.230 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4a325eb9
+2025-11-05 11:47:49.308 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-05 11:47:49.315 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-05 11:47:49.318 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 2.052 seconds (process running for 2.571)
+2025-11-05 11:48:11.209 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-05 11:48:11.210 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-05 11:48:11.211 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-05 11:48:11.236 [http-nio-8080-exec-1] INFO  com.quanxiaoha.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功, 文件名：整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md -> 存储路径：E:\java_workspace\xiaoha-ai-robot\f53734c9-4b81-4c38-a91b-f32b3e9c299c-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md
+2025-11-05 11:48:11.267 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2025-11-05 11:48:11.360 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@291c105d
+2025-11-05 11:48:11.360 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2025-11-05 11:48:11.382 [event-handler-1] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## AiCustomerServiceMdUploadedEvent: AiCustomerServiceMdUploadedEvent(id=21, filePath=E:\java_workspace\xiaoha-ai-robot\f53734c9-4b81-4c38-a91b-f32b3e9c299c-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, metadatas={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, fileSize=11942})
+2025-11-05 11:48:11.431 [event-handler-1] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## documents: [Document{id='93a486f1-f1ff-44b3-912c-f71aa283a94f', text='本小节中，我们继续调试与开发前端项目，实现当用户在 “聊天输入框” 填入消息后，点击发送按钮，能够请求后端 /chat/completion  SSE 接口, 获取响应数据，并流式渲染 AI 大模型回复的消息。', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_inline, title=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求, fileSize=11942}, score=null}, Document{id='aff108df-1f7f-4321-b077-1d7ee9c45c00', text='在这之前，ChatInputBox.vue 聊天输入框还有点问题，需要先解决一下，那就是 —— 在聊天对话页中，如下图，当选择 AI 模型选择时，弹出的菜单出现在了下方，导致一部分菜单看不见了，交互上很不友好。我们希望当下方空间不足时，能够在上方弹出。为了实现这个功能，编辑 ChatInputBox.vue 组件，为下拉菜单添加代码如下：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_inline, title=下拉框展示问题, fileSize=11942}, score=null}, Document{id='f22ead34-a30a-4b22-aef6-7e68b8387ded', text='       <div class="flex gap-2 relative" ref="leftContainerRef">
+       			// 省略...
+                
+                <!-- 下拉框菜单 -->
+                <div v-if="isModelDropdownOpen" 
+                ref="dropdownRef"
+                :class="['absolute', 'left-0', 'w-48', 'bg-white', 'rounded-lg', 'shadow-lg', 'border', 'border-gray-200', 'z-10', 'overflow-hidden', dropdownPosition]"
+                >
+                    // 省略...
+                </div>
+                
+                // 省略...
+       </div>
+                
+<script setup>
+import { ref, onMounted, onUnmounted, computed, nextTick } from 'vue'
+// 省略...
+
+// 下拉菜单父容器引用
+const leftContainerRef = ref(null);
+
+// 下拉菜单引用
+const dropdownRef = ref(null)
+// 下拉菜单位置
+const dropdownPosition = ref('top-8') // 默认下方
+
+// 下拉菜单显示/隐藏
+const toggleModelDropdown = (event) => {
+  isModelDropdownOpen.value = !isModelDropdownOpen.value
+
+  // 如果下拉菜单显示，则计算位置
+  if (isModelDropdownOpen.value) {
+    nextTick(() => {
+      if (leftContainerRef.value && dropdownRef.value) {
+        // 返回元素相对于视图窗口的位置和尺寸信息
+        const buttonRect = leftContainerRef.value.getBoundingClientRect();
+        // 下拉菜单的实际高度
+        const dropdownHeight = dropdownRef.value.offsetHeight;
+        
+        // 检查下方空间是否足够
+        // 可用空间 = window.innerHeight - buttonRect.bottom
+        // 所需空间 = dropdownHeight
+        // 如果可用空间 < 所需空间，说明下方空间不足
+        if (window.innerHeight - buttonRect.bottom < dropdownHeight) {
+          // 下方空间不足，显示在上方
+          dropdownPosition.value = 'bottom-10';
+        } else {
+          // 下方空间足够，显示在下方
+          dropdownPosition.value = 'top-8';
+        }
+      }
+    })
+  }
+}
+
+// 省略...
+</script>
+', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_block, lang=, fileSize=11942}, score=null}, Document{id='ddc516b0-b6cf-4bf7-bcc7-c6e75ca3aebc', text='解释一下新添加的代码： 新建 leftContainerRef 变量，引用下拉菜单的父级 <div> 容器； 新建 dropdownRef 变量，引用下拉菜单本身，用于获取其尺寸； 新建 dropdownPosition 响应式变量，用于控制下拉菜单显示位置，默认为 'top-8'（在触发元素下方）； 编辑 toggleModelDropdown 下拉菜单显示/隐藏方法，追加如果下拉菜单显示，则计算位置的处理逻辑： 使用 nextTick() 确保 DOM 已经更新，可以正确获取元素尺寸； 开始计算下拉框的显示位置，动态设置下拉菜单是显示在上方，还是下方；保存代码后，测试一下，这次在 “聊天对话页” 中，点击选择模型，下拉菜单就能动态显示在上方了：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_inline, fileSize=11942}, score=null}, Document{id='ddcc47f9-6005-4adb-bf42-63f61b8818b4', text='书归正文，回到本小节的主题。在 《4.7节》中，我们使用的是原生的 EventSource 来调用 SSE 接口，实现流式对话效果，但是，它有诸多局限性： 只支持 GET 请求； 无法自定义请求头； 不支持请求体； 有限的错误处理能力；', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_inline, title=EventSource 的痛点, fileSize=11942}, score=null}, Document{id='1cb7d8ac-e5bd-45e8-8416-feda27dd8fd2', text='@microsoft/fetch-event-source 是微软开发的一个 JavaScript 库，提供了基于 Fetch API 的 Server-Sent Events (SSE) 客户端实现。它是对标准 EventSource API 的增强版本，提供了更多的灵活性和控制能力，很好的解决了原生 EventSource  的痛点。在 VSCode 中打开命令行，执行如下命令，安装 fetch-event-source 库：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_inline, title=整合 fetch-event-source, fileSize=11942}, score=null}, Document{id='c448a01e-17cd-4097-b4ca-6e79184c23d5', text='npm install --save @microsoft/fetch-event-source
+', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_block, lang=, fileSize=11942}, score=null}, Document{id='5bbaea7e-36ca-4037-a22f-1b689836cf0e', text='回到 ChatPage.vue 聊天对话页中，为 <ChatInputBox> 组件添加 v-model 指令，双向绑定到 message 变量上，默认值优先获取首页路由跳转，拿到的 firstMessage 字段, 若为空，则使用空字符串，并在 sendMessage() 发送消息事件方法中，构建请求 SSE 接口所需的请求体，代码如下：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_inline, title=构建请求体, fileSize=11942}, score=null}, Document{id='552bd8bc-2529-4d2f-b912-fb55898ba44a', text='          <!-- 提问输入框 -->
+          <ChatInputBox
+          v-model="message"
+          containerClass="sticky max-w-3xl mx-auto bg-white bottom-8 left-0 w-full"
+          @sendMessage="sendMessage"
+          />
+          
+          // 省略...
+          
+          
+<script setup>
+// 省略...
+import { useRoute } from 'vue-router'
+
+// 省略...
+
+const route = useRoute()
+
+// 输入的消息
+const message = ref(history.state?.firstMessage || '')
+
+// 对话 ID
+const chatId = ref(route.params.chatId || null)
+
+// 发送消息
+const sendMessage = async (payload) => {
+  // 校验发送的消息不能为空
+  if (!message.value.trim()) return
+
+  console.log('选中的模型:', payload.selectedModel)
+  console.log('是否联网:', payload.isNetworkSearch)
+
+  // 将用户发送的消息添加到 chatList 聊天列表中
+  const userMessage = message.value.trim()
+  chatList.value.push({ role: 'user', content: userMessage })
+
+  // 点击发送按钮后，清空输入框
+  message.value = ''
+
+  try {
+    // 构建请求体
+    const requestBody = {
+      message: userMessage,
+      chatId: chatId.value,
+      modelName: payload.selectedModel?.name,
+      networkSearch: payload.isNetworkSearch
+    }
+
+    // 打印请求体日志
+    console.log(requestBody)
+
+  } catch (error) {
+    console.error('发送消息错误: ', error)
+    // 提示用户 “请求出错”
+    chatList.value[chatList.value.length - 1].content = '抱歉，请求出错了，请稍后重试。'
+    // 滚动到底部
+    scrollToBottom()
+  }
+}
+
+// 省略...
+</script>
+', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_block, lang=, fileSize=11942}, score=null}, Document{id='d92ec870-a87a-428e-ab80-ebd04a80ec52', text='保存代码，准备来测试一下。在 “聊天对话页” 中，输入一条信息，如 “你好”，点击发送按钮，观察前端控制台日志，确保打印的 requestBody 请求体参数正常：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_inline, fileSize=11942}, score=null}, Document{id='9369f802-52fc-4259-83a1-8361433655c9', text='另外，针对首页输入的消息，点击发送按钮后，跳转到 “聊天对话页” ，也要适配一下：编辑  ChatPage.vue 聊天对话页，添加代码如下，在 onMounted() 生命周期方法中，判断跳转路由时，初始消息 firstMessage 是否为空，若不为空，主动调用 sendMessage() 方法，并将选择的模型、是否联网参数传递过去，代码如下：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_inline, title=首页发送的消息, fileSize=11942}, score=null}, Document{id='bbac12ee-4eef-482d-84de-3ce46e98fb58', text='<script setup>
+
+// 省略...
+
+// 导入Pinia store
+import { useChatStore } from '@/stores/chatStore'
+
+// 获取 chat store
+const chatStore = useChatStore()
+
+// 省略...
+
+onMounted(() => {
+  const firstMessage = history.state?.firstMessage
+  // 检查跳转路由时，是否有初始消息
+  if (firstMessage) {
+    message.value = firstMessage
+    // 发送消息
+    sendMessage({
+      selectedModel: chatStore.selectedModel,
+      isNetworkSearch: chatStore.isNetworkSearchSelected
+    })
+  }
+})
+
+// 省略...
+</script>
+', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_block, lang=, fileSize=11942}, score=null}, Document{id='0a4ab5ce-0818-4b9d-80d6-a83d396b9666', text='请求体构建完毕后，接下来，准备使用 fetch-event-source 库调用后端 SSE 接口，实现流式对话功能，最终效果如下：编辑 ChatPage.vue 聊天对话页，继续补充 sendMessage() 发送消息事件方法中的处理逻辑，代码如下：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_inline, title=调用 SSE 接口, fileSize=11942}, score=null}, Document{id='35d90918-9c7b-4cf9-af0d-558f74b50dd0', text='<script setup>
+// 省略..
+import { fetchEventSource } from '@microsoft/fetch-event-source'
+
+// 省略...
+
+// 发送消息
+const sendMessage = async (payload) => {
+  // 省略...
+
+  // 点击发送按钮后，清空输入框
+  message.value = ''
+
+  // 添加一个占位的回复消息
+  chatList.value.push({ role: 'assistant', content: ''})
+
+  try {
+    // 构建请求体
+    const requestBody = {
+      message: userMessage,
+      chatId: chatId.value,
+      modelName: payload.selectedModel?.name,
+      networkSearch: payload.isNetworkSearch
+    }
+
+    // 响应的回答
+    let responseText = ''
+    // 获取最后一条消息
+    const lastMessage = chatList.value[chatList.value.length - 1]
+
+    const controller = new AbortController()
+    const signal = controller.signal
+
+	// 调用 SSE 流式对话接口
+    fetchEventSource('http://localhost:8080/chat/completion', {
+      method: 'POST',
+      signal: signal,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(requestBody),
+      onmessage(msg) {
+        if (msg.event === '') {
+          // 解析 JSON
+          let parseJson = JSON.parse(msg.data)
+          // 持续追加流式回答
+          responseText += parseJson.v
+
+          // 更新最后一条消息
+          chatList.value[chatList.value.length - 1].content = responseText
+          // 滚动到底部
+          scrollToBottom()
+        }
+        else if (msg.event === 'close') {
+          console.log('-- sse close')
+          controller.abort();
+        }
+      },
+      onerror(err) {
+        throw err;    // 必须 throw 才能停止 
+      }
+    })
+
+
+  } catch (error) {
+    // 省略...
+  }
+
+}
+
+// 省略...
+</script>
+', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_block, lang=, fileSize=11942}, score=null}, Document{id='5a7a85aa-27a4-4ca9-b8f0-56e2cb94dfe9', text='解释一下上述代码中核心部分： 创建 AbortController：AbortController 用于在需要时中止请求。signal 是 AbortController 的一个属性，它将传递给 fetchEventSource 选项，以便在调用 controller.abort() 时中止请求。 调用 fetchEventSource： URL: 'http://localhost:8080/chat/completion' 方法: POST signal: 使用上面创建的 signal，用于控制请求的中止。 headers: 设置请求头，这里指定了 'Content-Type': 'application/json'。 body: 请求体，是一个 JSON 字符串，由 requestBody 对象转换而来。 事件处理： onmessage: 每次接收到服务器发送的事件时触发。事件对象 msg 包含事件类型 event 和数据 data。 如果 msg.event 是空字符串（表示默认的消息事件），则解析 msg.data（假设是 JSON 字符串），然后从解析后的对象中取出 v 属性，将其追加到 responseText 变量中。然后更新 chatList 中最后一条消息的内容为 responseText，并调用 scrollToBottom 函数（将聊天界面滚动到底部）。 如果 msg.event 是 'close'，则表示服务器通知关闭连接，此时调用 controller.abort() 中止请求。 onerror: 当发生错误时触发。这里直接抛出错误，因为根据 fetchEventSource 的文档，在 onerror 中抛出错误会停止重试并终止连接。如果不抛出，库会尝试重连。', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=21, category=code_inline, fileSize=11942}, score=null}]

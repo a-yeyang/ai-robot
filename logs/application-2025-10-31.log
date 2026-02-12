@@ -1,0 +1,278 @@
+2025-10-31 09:47:41.401 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-31 09:47:41.427 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 64136 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-10-31 09:47:41.430 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-10-31 09:47:42.300 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 09:47:42.311 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 09:47:42.312 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 09:47:42.312 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-31 09:47:42.362 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 09:47:42.362 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 909 ms
+2025-10-31 09:47:43.126 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@13cda7c9
+2025-10-31 09:47:43.202 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 09:47:43.209 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 09:47:43.212 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 1.998 seconds (process running for 3.102)
+2025-10-31 09:47:57.967 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-31 09:47:57.967 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-31 09:47:57.968 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-31 09:47:57.995 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2025-10-31 09:47:58.094 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@6c5c685d
+2025-10-31 09:47:58.095 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2025-10-31 09:47:58.104 [http-nio-8080-exec-1] INFO  com.quanxiaoha.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功：整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md -> E:\java_workspace\xiaoha-ai-robot\bf74010c-8da5-491b-9dad-c638dbf3d8a9-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md
+2025-10-31 09:59:11.892 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 09:59:11.894 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 09:59:11.896 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown initiated...
+2025-10-31 09:59:11.897 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown completed.
+2025-10-31 09:59:14.349 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-31 09:59:14.367 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 164852 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-10-31 09:59:14.369 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-10-31 09:59:15.068 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 09:59:15.076 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 09:59:15.077 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 09:59:15.077 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-31 09:59:15.103 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 09:59:15.103 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 719 ms
+2025-10-31 09:59:15.607 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150d80c4
+2025-10-31 09:59:15.682 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 09:59:15.687 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 09:59:15.690 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 1.501 seconds (process running for 2.007)
+2025-10-31 09:59:18.603 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 09:59:18.606 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 09:59:21.911 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-31 09:59:21.929 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 190036 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-10-31 09:59:21.931 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-10-31 09:59:22.612 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 09:59:22.620 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 09:59:22.621 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 09:59:22.621 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-31 09:59:22.644 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 09:59:22.644 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 697 ms
+2025-10-31 09:59:23.140 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150d80c4
+2025-10-31 09:59:23.222 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 09:59:23.227 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 09:59:23.231 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 1.473 seconds (process running for 1.883)
+2025-10-31 09:59:49.187 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 09:59:49.190 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 09:59:51.420 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-31 09:59:51.438 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 10536 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-10-31 09:59:51.440 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-10-31 09:59:52.131 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 09:59:52.138 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 09:59:52.139 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 09:59:52.139 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-31 09:59:52.165 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 09:59:52.166 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 709 ms
+2025-10-31 09:59:52.676 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150d80c4
+2025-10-31 09:59:52.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 09:59:52.757 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 09:59:52.761 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 1.497 seconds (process running for 1.964)
+2025-10-31 10:00:27.347 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-31 10:00:27.347 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-31 10:00:27.348 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-31 10:00:27.367 [http-nio-8080-exec-1] ERROR com.quanxiaoha.ai.robot.exception.GlobalExceptionHandler - /customer-service/md/upload request error, 
+org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'file' is not present.
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:216) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:196) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-10-31 10:02:50.319 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2025-10-31 10:02:50.406 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@2cee7984
+2025-10-31 10:02:50.407 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2025-10-31 10:02:50.416 [http-nio-8080-exec-6] WARN  com.quanxiaoha.ai.robot.exception.GlobalExceptionHandler - /customer-service/md/upload request fail, errorCode: 20002, errorMessage: 仅支持 Markdown 文件（.md 后缀）
+2025-10-31 10:02:58.228 [http-nio-8080-exec-5] ERROR com.quanxiaoha.ai.robot.exception.GlobalExceptionHandler - /customer-service/md/upload request error, 
+org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'file' is not present.
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:216) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:196) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-10-31 10:09:44.708 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 10:09:44.710 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 10:09:44.712 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown initiated...
+2025-10-31 10:09:44.714 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown completed.
+2025-10-31 10:09:46.924 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-31 10:09:46.941 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 187972 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-10-31 10:09:46.943 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-10-31 10:09:47.609 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 10:09:47.616 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 10:09:47.617 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 10:09:47.617 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-31 10:09:47.641 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 10:09:47.641 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 681 ms
+2025-10-31 10:09:48.151 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150d80c4
+2025-10-31 10:09:48.231 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 10:09:48.236 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 10:09:48.239 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 1.472 seconds (process running for 1.889)
+2025-10-31 10:09:51.167 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-31 10:09:51.167 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-31 10:09:51.168 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-31 10:09:51.187 [http-nio-8080-exec-2] ERROR com.quanxiaoha.ai.robot.exception.GlobalExceptionHandler - /customer-service/md/upload request error, 
+org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'file' is not present.
+	at org.springframework.web.servlet.mvc.method.annotation.RequestPartMethodArgumentResolver.resolveArgument(RequestPartMethodArgumentResolver.java:168) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-10-31 10:12:08.147 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 10:12:08.150 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 10:12:10.938 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-10-31 10:12:10.958 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 64168 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-10-31 10:12:10.959 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-10-31 10:12:11.629 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-31 10:12:11.636 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-31 10:12:11.637 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-31 10:12:11.637 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-31 10:12:11.660 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-31 10:12:11.660 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 680 ms
+2025-10-31 10:12:12.168 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150d80c4
+2025-10-31 10:12:12.244 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-31 10:12:12.249 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-31 10:12:12.253 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 1.467 seconds (process running for 1.885)
+2025-10-31 10:12:15.529 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-31 10:12:15.529 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-31 10:12:15.529 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-10-31 10:12:15.548 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2025-10-31 10:12:15.639 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@9c763fa
+2025-10-31 10:12:15.640 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2025-10-31 10:12:15.648 [http-nio-8080-exec-1] WARN  com.quanxiaoha.ai.robot.exception.GlobalExceptionHandler - /customer-service/md/upload request fail, errorCode: 20001, errorMessage: 上传文件不能为空
+2025-10-31 10:12:22.746 [http-nio-8080-exec-2] WARN  com.quanxiaoha.ai.robot.exception.GlobalExceptionHandler - /customer-service/md/upload request fail, errorCode: 20002, errorMessage: 仅支持 Markdown 文件（.md 后缀）
+2025-10-31 10:12:46.056 [http-nio-8080-exec-5] INFO  com.quanxiaoha.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功, 文件名：### 解决启动报错问题.md -> 存储路径：E:\java_workspace\xiaoha-ai-robot\c32c4ac8-3912-4d19-b4cc-7919970992ec-### 解决启动报错问题.md
+2025-10-31 10:59:15.859 [http-nio-8080-exec-6] INFO  com.quanxiaoha.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功, 文件名：整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md -> 存储路径：E:\java_workspace\xiaoha-ai-robot\b428235f-1010-42ff-b205-e924cfebcad7-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md
+2025-10-31 13:37:22.521 [AI-Robot-HikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Thread starvation or clock leap detected (housekeeper delta=1h13m4s569ms340µs801ns).
+2025-10-31 18:49:07.408 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31 18:49:07.416 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-31 18:49:07.425 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown initiated...
+2025-10-31 18:49:07.428 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown completed.

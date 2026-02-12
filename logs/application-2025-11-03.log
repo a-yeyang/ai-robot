@@ -1,0 +1,21 @@
+2025-11-03 17:57:15.680 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-11-03 17:57:15.709 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 131712 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-11-03 17:57:15.712 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-11-03 17:57:18.826 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-03 17:57:18.840 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-03 17:57:18.841 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-03 17:57:18.841 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-11-03 17:57:18.898 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-03 17:57:18.898 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3159 ms
+2025-11-03 17:57:20.837 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150d80c4
+2025-11-03 17:57:20.985 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-03 17:57:20.991 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-03 17:57:20.995 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 5.508 seconds (process running for 6.052)
+2025-11-03 17:57:42.289 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-03 17:57:42.290 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-03 17:57:42.290 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-03 17:57:42.329 [http-nio-8080-exec-1] INFO  com.quanxiaoha.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功, 文件名：整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md -> 存储路径：E:\java_workspace\xiaoha-ai-robot\79888171-1c19-4a70-8edd-05e399ba4b0d-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md
+2025-11-03 17:57:42.392 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2025-11-03 17:57:42.689 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@51d55001
+2025-11-03 17:57:42.689 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2025-11-03 17:57:42.754 [event-handler-1] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## AiCustomerServiceMdUploadedEvent: AiCustomerServiceMdUploadedEvent(filePath=E:\java_workspace\xiaoha-ai-robot\79888171-1c19-4a70-8edd-05e399ba4b0d-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md)

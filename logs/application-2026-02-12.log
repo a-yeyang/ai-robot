@@ -1,0 +1,18 @@
+2026-02-12 21:56:53.118 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-02-12 21:56:53.152 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.8 with PID 28108 (D:\xiaoha-ai-robot-springboot\target\classes started by admin in D:\xiaoha-ai-robot-springboot)
+2026-02-12 21:56:53.155 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2026-02-12 21:56:54.323 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-12 21:56:54.335 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-02-12 21:56:54.336 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-12 21:56:54.336 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-02-12 21:56:54.377 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-12 21:56:54.377 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1194 ms
+2026-02-12 21:56:54.949 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Using the vector table name: t_vector_store. Is empty: false
+2026-02-12 21:56:54.952 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: t_vector_store in schema: public
+2026-02-12 21:56:54.952 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - vectorTableValidationsEnabled false
+2026-02-12 21:56:55.274 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@495083a0
+2026-02-12 21:56:55.350 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-02-12 21:56:55.356 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-12 21:56:55.361 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 2.502 seconds (process running for 3.206)
+2026-02-12 22:02:45.235 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-12 22:02:45.242 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete

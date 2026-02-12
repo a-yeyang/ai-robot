@@ -1,0 +1,2 @@
+2025-10-16 08:43:09.866 [AI-Robot-HikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Thread starvation or clock leap detected (housekeeper delta=8h49m53s98ms597µs400ns).
+2025-10-16 11:27:52.213 [AI-Robot-HikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Thread starvation or clock leap detected (housekeeper delta=8m9s977ms57µs800ns).

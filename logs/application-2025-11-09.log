@@ -1,0 +1,731 @@
+2025-11-09 17:01:46.926 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-11-09 17:01:46.957 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 288464 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-11-09 17:01:46.960 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-11-09 17:01:47.980 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-09 17:01:47.990 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-09 17:01:47.991 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-09 17:01:47.991 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-11-09 17:01:48.027 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-09 17:01:48.027 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1043 ms
+2025-11-09 17:01:48.640 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Using the vector table name: t_vector_store. Is empty: false
+2025-11-09 17:01:48.643 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: t_vector_store in schema: public
+2025-11-09 17:01:48.643 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - vectorTableValidationsEnabled false
+2025-11-09 17:01:48.961 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4a325eb9
+2025-11-09 17:01:49.041 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-09 17:01:49.047 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-09 17:01:49.050 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 2.378 seconds (process running for 3.05)
+2025-11-09 17:40:37.105 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-11-09 17:40:37.126 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Starting XiaohaAiRobotSpringbootApplication using Java 21.0.7 with PID 258576 (E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot\target\classes started by Administrator in E:\java_workspace\xiaoha-ai-robot\project\xiaoha-ai-robot-springboot)
+2025-11-09 17:40:37.130 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - The following 1 profile is active: "dev"
+2025-11-09 17:40:37.884 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-09 17:40:37.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-09 17:40:37.894 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-09 17:40:37.894 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-11-09 17:40:37.918 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-09 17:40:37.918 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 765 ms
+2025-11-09 17:40:38.362 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Using the vector table name: t_vector_store. Is empty: false
+2025-11-09 17:40:38.364 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: t_vector_store in schema: public
+2025-11-09 17:40:38.364 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - vectorTableValidationsEnabled false
+2025-11-09 17:40:38.619 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4a325eb9
+2025-11-09 17:40:38.683 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-09 17:40:38.688 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-09 17:40:38.693 [main] INFO  com.quanxiaoha.ai.robot.XiaohaAiRobotSpringbootApplication - Started XiaohaAiRobotSpringbootApplication in 1.746 seconds (process running for 2.216)
+2025-11-09 17:41:38.213 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-09 17:41:38.213 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-09 17:41:38.214 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-09 17:41:38.303 [http-nio-8080-exec-2] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [Markdown 问答文件分页查询], 入参: {"current":1,"size":10}, 请求类: AiCustomerServiceController, 请求方法: findMarkdownFilePageList =================================== 
+2025-11-09 17:41:38.515 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2025-11-09 17:41:38.713 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@26491ce1
+2025-11-09 17:41:38.715 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2025-11-09 17:41:38.749 [http-nio-8080-exec-2] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [Markdown 问答文件分页查询], 耗时: 453ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null,"total":0,"size":10,"current":1,"pages":0} =================================== 
+2025-11-09 17:42:04.509 [http-nio-8080-exec-3] INFO  com.quanxiaoha.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功, 文件名：整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md -> 存储路径：E:\java_workspace\xiaoha-ai-robot\cd2f26fd-6bb1-4056-a692-49250f5aee67-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md
+2025-11-09 17:42:04.533 [event-handler-1] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## AiCustomerServiceMdUploadedEvent: AiCustomerServiceMdUploadedEvent(id=23, filePath=E:\java_workspace\xiaoha-ai-robot\cd2f26fd-6bb1-4056-a692-49250f5aee67-整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, metadatas={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23})
+2025-11-09 17:42:04.569 [event-handler-1] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## documents: [Document{id='087b8128-9684-48b7-935d-4976576580ac', text='本小节中，我们继续调试与开发前端项目，实现当用户在 “聊天输入框” 填入消息后，点击发送按钮，能够请求后端 /chat/completion  SSE 接口, 获取响应数据，并流式渲染 AI 大模型回复的消息。', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_inline, title=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求}, score=null}, Document{id='f6dc0adf-ccaa-4137-a216-fefe8ce4b217', text='在这之前，ChatInputBox.vue 聊天输入框还有点问题，需要先解决一下，那就是 —— 在聊天对话页中，如下图，当选择 AI 模型选择时，弹出的菜单出现在了下方，导致一部分菜单看不见了，交互上很不友好。我们希望当下方空间不足时，能够在上方弹出。为了实现这个功能，编辑 ChatInputBox.vue 组件，为下拉菜单添加代码如下：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_inline, title=下拉框展示问题}, score=null}, Document{id='28c47317-681e-47d4-9965-d09121df51a7', text='       <div class="flex gap-2 relative" ref="leftContainerRef">
+       			// 省略...
+                
+                <!-- 下拉框菜单 -->
+                <div v-if="isModelDropdownOpen" 
+                ref="dropdownRef"
+                :class="['absolute', 'left-0', 'w-48', 'bg-white', 'rounded-lg', 'shadow-lg', 'border', 'border-gray-200', 'z-10', 'overflow-hidden', dropdownPosition]"
+                >
+                    // 省略...
+                </div>
+                
+                // 省略...
+       </div>
+                
+<script setup>
+import { ref, onMounted, onUnmounted, computed, nextTick } from 'vue'
+// 省略...
+
+// 下拉菜单父容器引用
+const leftContainerRef = ref(null);
+
+// 下拉菜单引用
+const dropdownRef = ref(null)
+// 下拉菜单位置
+const dropdownPosition = ref('top-8') // 默认下方
+
+// 下拉菜单显示/隐藏
+const toggleModelDropdown = (event) => {
+  isModelDropdownOpen.value = !isModelDropdownOpen.value
+
+  // 如果下拉菜单显示，则计算位置
+  if (isModelDropdownOpen.value) {
+    nextTick(() => {
+      if (leftContainerRef.value && dropdownRef.value) {
+        // 返回元素相对于视图窗口的位置和尺寸信息
+        const buttonRect = leftContainerRef.value.getBoundingClientRect();
+        // 下拉菜单的实际高度
+        const dropdownHeight = dropdownRef.value.offsetHeight;
+        
+        // 检查下方空间是否足够
+        // 可用空间 = window.innerHeight - buttonRect.bottom
+        // 所需空间 = dropdownHeight
+        // 如果可用空间 < 所需空间，说明下方空间不足
+        if (window.innerHeight - buttonRect.bottom < dropdownHeight) {
+          // 下方空间不足，显示在上方
+          dropdownPosition.value = 'bottom-10';
+        } else {
+          // 下方空间足够，显示在下方
+          dropdownPosition.value = 'top-8';
+        }
+      }
+    })
+  }
+}
+
+// 省略...
+</script>
+', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_block, lang=}, score=null}, Document{id='7bb702d7-0aef-4170-ac84-59a07d7bfbbd', text='解释一下新添加的代码： 新建 leftContainerRef 变量，引用下拉菜单的父级 <div> 容器； 新建 dropdownRef 变量，引用下拉菜单本身，用于获取其尺寸； 新建 dropdownPosition 响应式变量，用于控制下拉菜单显示位置，默认为 'top-8'（在触发元素下方）； 编辑 toggleModelDropdown 下拉菜单显示/隐藏方法，追加如果下拉菜单显示，则计算位置的处理逻辑： 使用 nextTick() 确保 DOM 已经更新，可以正确获取元素尺寸； 开始计算下拉框的显示位置，动态设置下拉菜单是显示在上方，还是下方；保存代码后，测试一下，这次在 “聊天对话页” 中，点击选择模型，下拉菜单就能动态显示在上方了：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, category=code_inline, mdStorageId=23}, score=null}, Document{id='43e3dc04-8b7d-404f-b6d8-919a9b9f7a8c', text='书归正文，回到本小节的主题。在 《4.7节》中，我们使用的是原生的 EventSource 来调用 SSE 接口，实现流式对话效果，但是，它有诸多局限性： 只支持 GET 请求； 无法自定义请求头； 不支持请求体； 有限的错误处理能力；', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_inline, title=EventSource 的痛点}, score=null}, Document{id='420a9d38-5ab6-45a8-95e8-95f420d6c1c3', text='@microsoft/fetch-event-source 是微软开发的一个 JavaScript 库，提供了基于 Fetch API 的 Server-Sent Events (SSE) 客户端实现。它是对标准 EventSource API 的增强版本，提供了更多的灵活性和控制能力，很好的解决了原生 EventSource  的痛点。在 VSCode 中打开命令行，执行如下命令，安装 fetch-event-source 库：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_inline, title=整合 fetch-event-source}, score=null}, Document{id='1ffb0aa7-0402-4219-9349-af037e6241d7', text='npm install --save @microsoft/fetch-event-source
+', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_block, lang=}, score=null}, Document{id='16478b1d-4e0b-43bf-a778-523c65dbe65a', text='回到 ChatPage.vue 聊天对话页中，为 <ChatInputBox> 组件添加 v-model 指令，双向绑定到 message 变量上，默认值优先获取首页路由跳转，拿到的 firstMessage 字段, 若为空，则使用空字符串，并在 sendMessage() 发送消息事件方法中，构建请求 SSE 接口所需的请求体，代码如下：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_inline, title=构建请求体}, score=null}, Document{id='149eeaae-f605-4558-9197-dfb7441e9317', text='          <!-- 提问输入框 -->
+          <ChatInputBox
+          v-model="message"
+          containerClass="sticky max-w-3xl mx-auto bg-white bottom-8 left-0 w-full"
+          @sendMessage="sendMessage"
+          />
+          
+          // 省略...
+          
+          
+<script setup>
+// 省略...
+import { useRoute } from 'vue-router'
+
+// 省略...
+
+const route = useRoute()
+
+// 输入的消息
+const message = ref(history.state?.firstMessage || '')
+
+// 对话 ID
+const chatId = ref(route.params.chatId || null)
+
+// 发送消息
+const sendMessage = async (payload) => {
+  // 校验发送的消息不能为空
+  if (!message.value.trim()) return
+
+  console.log('选中的模型:', payload.selectedModel)
+  console.log('是否联网:', payload.isNetworkSearch)
+
+  // 将用户发送的消息添加到 chatList 聊天列表中
+  const userMessage = message.value.trim()
+  chatList.value.push({ role: 'user', content: userMessage })
+
+  // 点击发送按钮后，清空输入框
+  message.value = ''
+
+  try {
+    // 构建请求体
+    const requestBody = {
+      message: userMessage,
+      chatId: chatId.value,
+      modelName: payload.selectedModel?.name,
+      networkSearch: payload.isNetworkSearch
+    }
+
+    // 打印请求体日志
+    console.log(requestBody)
+
+  } catch (error) {
+    console.error('发送消息错误: ', error)
+    // 提示用户 “请求出错”
+    chatList.value[chatList.value.length - 1].content = '抱歉，请求出错了，请稍后重试。'
+    // 滚动到底部
+    scrollToBottom()
+  }
+}
+
+// 省略...
+</script>
+', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_block, lang=}, score=null}, Document{id='f86c5977-127e-4c02-bd16-bbd9d0650c37', text='保存代码，准备来测试一下。在 “聊天对话页” 中，输入一条信息，如 “你好”，点击发送按钮，观察前端控制台日志，确保打印的 requestBody 请求体参数正常：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, category=code_inline, mdStorageId=23}, score=null}, Document{id='14c18678-2b6c-47b5-ad0e-f6a026548b1a', text='另外，针对首页输入的消息，点击发送按钮后，跳转到 “聊天对话页” ，也要适配一下：编辑  ChatPage.vue 聊天对话页，添加代码如下，在 onMounted() 生命周期方法中，判断跳转路由时，初始消息 firstMessage 是否为空，若不为空，主动调用 sendMessage() 方法，并将选择的模型、是否联网参数传递过去，代码如下：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_inline, title=首页发送的消息}, score=null}, Document{id='be4ea7ec-5ce7-4986-9565-495eb81c3a20', text='<script setup>
+
+// 省略...
+
+// 导入Pinia store
+import { useChatStore } from '@/stores/chatStore'
+
+// 获取 chat store
+const chatStore = useChatStore()
+
+// 省略...
+
+onMounted(() => {
+  const firstMessage = history.state?.firstMessage
+  // 检查跳转路由时，是否有初始消息
+  if (firstMessage) {
+    message.value = firstMessage
+    // 发送消息
+    sendMessage({
+      selectedModel: chatStore.selectedModel,
+      isNetworkSearch: chatStore.isNetworkSearchSelected
+    })
+  }
+})
+
+// 省略...
+</script>
+', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_block, lang=}, score=null}, Document{id='2b69ecf6-ab0c-4c32-bed6-e25898befc63', text='请求体构建完毕后，接下来，准备使用 fetch-event-source 库调用后端 SSE 接口，实现流式对话功能，最终效果如下：编辑 ChatPage.vue 聊天对话页，继续补充 sendMessage() 发送消息事件方法中的处理逻辑，代码如下：', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_inline, title=调用 SSE 接口}, score=null}, Document{id='59d1edd7-c26d-464a-ab67-15c34cab5746', text='<script setup>
+// 省略..
+import { fetchEventSource } from '@microsoft/fetch-event-source'
+
+// 省略...
+
+// 发送消息
+const sendMessage = async (payload) => {
+  // 省略...
+
+  // 点击发送按钮后，清空输入框
+  message.value = ''
+
+  // 添加一个占位的回复消息
+  chatList.value.push({ role: 'assistant', content: ''})
+
+  try {
+    // 构建请求体
+    const requestBody = {
+      message: userMessage,
+      chatId: chatId.value,
+      modelName: payload.selectedModel?.name,
+      networkSearch: payload.isNetworkSearch
+    }
+
+    // 响应的回答
+    let responseText = ''
+    // 获取最后一条消息
+    const lastMessage = chatList.value[chatList.value.length - 1]
+
+    const controller = new AbortController()
+    const signal = controller.signal
+
+	// 调用 SSE 流式对话接口
+    fetchEventSource('http://localhost:8080/chat/completion', {
+      method: 'POST',
+      signal: signal,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(requestBody),
+      onmessage(msg) {
+        if (msg.event === '') {
+          // 解析 JSON
+          let parseJson = JSON.parse(msg.data)
+          // 持续追加流式回答
+          responseText += parseJson.v
+
+          // 更新最后一条消息
+          chatList.value[chatList.value.length - 1].content = responseText
+          // 滚动到底部
+          scrollToBottom()
+        }
+        else if (msg.event === 'close') {
+          console.log('-- sse close')
+          controller.abort();
+        }
+      },
+      onerror(err) {
+        throw err;    // 必须 throw 才能停止 
+      }
+    })
+
+
+  } catch (error) {
+    // 省略...
+  }
+
+}
+
+// 省略...
+</script>
+', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, mdStorageId=23, category=code_block, lang=}, score=null}, Document{id='7472367e-ba51-482a-9b87-5237f2199122', text='解释一下上述代码中核心部分： 创建 AbortController：AbortController 用于在需要时中止请求。signal 是 AbortController 的一个属性，它将传递给 fetchEventSource 选项，以便在调用 controller.abort() 时中止请求。 调用 fetchEventSource： URL: 'http://localhost:8080/chat/completion' 方法: POST signal: 使用上面创建的 signal，用于控制请求的中止。 headers: 设置请求头，这里指定了 'Content-Type': 'application/json'。 body: 请求体，是一个 JSON 字符串，由 requestBody 对象转换而来。 事件处理： onmessage: 每次接收到服务器发送的事件时触发。事件对象 msg 包含事件类型 event 和数据 data。 如果 msg.event 是空字符串（表示默认的消息事件），则解析 msg.data（假设是 JSON 字符串），然后从解析后的对象中取出 v 属性，将其追加到 responseText 变量中。然后更新 chatList 中最后一条消息的内容为 responseText，并调用 scrollToBottom 函数（将聊天界面滚动到底部）。 如果 msg.event 是 'close'，则表示服务器通知关闭连接，此时调用 controller.abort() 中止请求。 onerror: 当发生错误时触发。这里直接抛出错误，因为根据 fetchEventSource 的文档，在 onerror 中抛出错误会停止重试并终止连接。如果不抛出，库会尝试重连。', media='null', metadata={originalFileName=整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md, category=code_inline, mdStorageId=23}, score=null}]
+2025-11-09 17:42:10.783 [http-nio-8080-exec-4] INFO  com.quanxiaoha.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功, 文件名：### 解决启动报错问题.md -> 存储路径：E:\java_workspace\xiaoha-ai-robot\c53530b4-c6d6-4216-b6da-0600da0ab7d5-### 解决启动报错问题.md
+2025-11-09 17:42:10.895 [event-handler-2] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## AiCustomerServiceMdUploadedEvent: AiCustomerServiceMdUploadedEvent(id=24, filePath=E:\java_workspace\xiaoha-ai-robot\c53530b4-c6d6-4216-b6da-0600da0ab7d5-### 解决启动报错问题.md, metadatas={originalFileName=### 解决启动报错问题.md, mdStorageId=24})
+2025-11-09 17:42:10.901 [event-handler-2] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## documents: [Document{id='5accbfe2-0f6d-44f5-98a0-978bad3fd851', text='部门小伙伴反馈，通过 Docker 来启动 Nacos 容器，有启动失败的情况发生，排查启动日志，发现报错 load derby-schema.sql error , 如下图所示：Nacos 默认会使用 Derby 数据库，错误信息提示加载 derby-schema.sql 脚本，进行初始化时出现了错误。要想解决上述问题，可以使用 MySQL 数据库替换掉 Derby。', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=24, category=code_inline, title=解决启动报错问题}, score=null}, Document{id='3a130d1a-abe0-437a-9914-252b7d99f27c', text='在使用 MySQL 替换 Derby 之前，我们进入到 E:/docker/nacos/conf 配置文件夹中，有两个重要的文件，等会需要使用到，如下图标注所示：', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=24, category=code_inline, title=两个重要文件}, score=null}, Document{id='d15ad235-f1f9-4265-a153-9366ffce5322', text='①：Nacos 的配置文件，可修改数据库连接； ②：MySQL 数据库相关表的初始化脚本；', media='null', metadata={originalFileName=### 解决启动报错问题.md, category=blockquote, mdStorageId=24}, score=null}, Document{id='d13d0080-6247-4383-aa70-b368a6b4366a', text='通过 Navicat 打开 MySQL，新建一个名为 nacosc_config 的数据库，字符集使用 utf8mb4 , 如下图所示：nacos_config 数据库新建完毕后，将前面 mysql-schema.sql 脚本中的 SQL 语句复制出来，完整如下：', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=24, category=code_inline, title=新建 Nacos 数据库}, score=null}, Document{id='556c049f-76c3-44f3-a841-3a4a29ef4beb', text='/*
+ * Copyright 1999-2018 Alibaba Group Holding Ltd.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = config_info   */
+/******************************************/
+CREATE TABLE `config_info` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `data_id` varchar(255) NOT NULL COMMENT 'data_id',
+  `group_id` varchar(128) DEFAULT NULL,
+  `content` longtext NOT NULL COMMENT 'content',
+  `md5` varchar(32) DEFAULT NULL COMMENT 'md5',
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间',
+  `src_user` text COMMENT 'source user',
+  `src_ip` varchar(50) DEFAULT NULL COMMENT 'source ip',
+  `app_name` varchar(128) DEFAULT NULL,
+  `tenant_id` varchar(128) DEFAULT '' COMMENT '租户字段',
+  `c_desc` varchar(256) DEFAULT NULL,
+  `c_use` varchar(64) DEFAULT NULL,
+  `effect` varchar(64) DEFAULT NULL,
+  `type` varchar(64) DEFAULT NULL,
+  `c_schema` text,
+  `encrypted_data_key` text NOT NULL COMMENT '秘钥',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_configinfo_datagrouptenant` (`data_id`,`group_id`,`tenant_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='config_info';
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = config_info_aggr   */
+/******************************************/
+CREATE TABLE `config_info_aggr` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `data_id` varchar(255) NOT NULL COMMENT 'data_id',
+  `group_id` varchar(128) NOT NULL COMMENT 'group_id',
+  `datum_id` varchar(255) NOT NULL COMMENT 'datum_id',
+  `content` longtext NOT NULL COMMENT '内容',
+  `gmt_modified` datetime NOT NULL COMMENT '修改时间',
+  `app_name` varchar(128) DEFAULT NULL,
+  `tenant_id` varchar(128) DEFAULT '' COMMENT '租户字段',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_configinfoaggr_datagrouptenantdatum` (`data_id`,`group_id`,`tenant_id`,`datum_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='增加租户字段';
+
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = config_info_beta   */
+/******************************************/
+CREATE TABLE `config_info_beta` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `data_id` varchar(255) NOT NULL COMMENT 'data_id',
+  `group_id` varchar(128) NOT NULL COMMENT 'group_id',
+  `app_name` varchar(128) DEFAULT NULL COMMENT 'app_name',
+  `content` longtext NOT NULL COMMENT 'content',
+  `beta_ips` varchar(1024) DEFAULT NULL COMMENT 'betaIps',
+  `md5` varchar(32) DEFAULT NULL COMMENT 'md5',
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间',
+  `src_user` text COMMENT 'source user',
+  `src_ip` varchar(50) DEFAULT NULL COMMENT 'source ip',
+  `tenant_id` varchar(128) DEFAULT '' COMMENT '租户字段',
+  `encrypted_data_key` text NOT NULL COMMENT '秘钥',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_configinfobeta_datagrouptenant` (`data_id`,`group_id`,`tenant_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='config_info_beta';
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = config_info_tag   */
+/******************************************/
+CREATE TABLE `config_info_tag` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `data_id` varchar(255) NOT NULL COMMENT 'data_id',
+  `group_id` varchar(128) NOT NULL COMMENT 'group_id',
+  `tenant_id` varchar(128) DEFAULT '' COMMENT 'tenant_id',
+  `tag_id` varchar(128) NOT NULL COMMENT 'tag_id',
+  `app_name` varchar(128) DEFAULT NULL COMMENT 'app_name',
+  `content` longtext NOT NULL COMMENT 'content',
+  `md5` varchar(32) DEFAULT NULL COMMENT 'md5',
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间',
+  `src_user` text COMMENT 'source user',
+  `src_ip` varchar(50) DEFAULT NULL COMMENT 'source ip',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_configinfotag_datagrouptenanttag` (`data_id`,`group_id`,`tenant_id`,`tag_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='config_info_tag';
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = config_tags_relation   */
+/******************************************/
+CREATE TABLE `config_tags_relation` (
+  `id` bigint(20) NOT NULL COMMENT 'id',
+  `tag_name` varchar(128) NOT NULL COMMENT 'tag_name',
+  `tag_type` varchar(64) DEFAULT NULL COMMENT 'tag_type',
+  `data_id` varchar(255) NOT NULL COMMENT 'data_id',
+  `group_id` varchar(128) NOT NULL COMMENT 'group_id',
+  `tenant_id` varchar(128) DEFAULT '' COMMENT 'tenant_id',
+  `nid` bigint(20) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`nid`),
+  UNIQUE KEY `uk_configtagrelation_configidtag` (`id`,`tag_name`,`tag_type`),
+  KEY `idx_tenant_id` (`tenant_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='config_tag_relation';
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = group_capacity   */
+/******************************************/
+CREATE TABLE `group_capacity` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
+  `group_id` varchar(128) NOT NULL DEFAULT '' COMMENT 'Group ID，空字符表示整个集群',
+  `quota` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '配额，0表示使用默认值',
+  `usage` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '使用量',
+  `max_size` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '单个配置大小上限，单位为字节，0表示使用默认值',
+  `max_aggr_count` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '聚合子配置最大个数，，0表示使用默认值',
+  `max_aggr_size` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '单个聚合数据的子配置大小上限，单位为字节，0表示使用默认值',
+  `max_history_count` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '最大变更历史数量',
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_group_id` (`group_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='集群、各Group容量信息表';
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = his_config_info   */
+/******************************************/
+CREATE TABLE `his_config_info` (
+  `id` bigint(20) unsigned NOT NULL,
+  `nid` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `data_id` varchar(255) NOT NULL,
+  `group_id` varchar(128) NOT NULL,
+  `app_name` varchar(128) DEFAULT NULL COMMENT 'app_name',
+  `content` longtext NOT NULL,
+  `md5` varchar(32) DEFAULT NULL,
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `src_user` text,
+  `src_ip` varchar(50) DEFAULT NULL,
+  `op_type` char(10) DEFAULT NULL,
+  `tenant_id` varchar(128) DEFAULT '' COMMENT '租户字段',
+  `encrypted_data_key` text NOT NULL COMMENT '秘钥',
+  PRIMARY KEY (`nid`),
+  KEY `idx_gmt_create` (`gmt_create`),
+  KEY `idx_gmt_modified` (`gmt_modified`),
+  KEY `idx_did` (`data_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='多租户改造';
+
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = tenant_capacity   */
+/******************************************/
+CREATE TABLE `tenant_capacity` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
+  `tenant_id` varchar(128) NOT NULL DEFAULT '' COMMENT 'Tenant ID',
+  `quota` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '配额，0表示使用默认值',
+  `usage` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '使用量',
+  `max_size` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '单个配置大小上限，单位为字节，0表示使用默认值',
+  `max_aggr_count` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '聚合子配置最大个数',
+  `max_aggr_size` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '单个聚合数据的子配置大小上限，单位为字节，0表示使用默认值',
+  `max_history_count` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '最大变更历史数量',
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_tenant_id` (`tenant_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='租户容量信息表';
+
+
+CREATE TABLE `tenant_info` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `kp` varchar(128) NOT NULL COMMENT 'kp',
+  `tenant_id` varchar(128) default '' COMMENT 'tenant_id',
+  `tenant_name` varchar(128) default '' COMMENT 'tenant_name',
+  `tenant_desc` varchar(256) DEFAULT NULL COMMENT 'tenant_desc',
+  `create_source` varchar(32) DEFAULT NULL COMMENT 'create_source',
+  `gmt_create` bigint(20) NOT NULL COMMENT '创建时间',
+  `gmt_modified` bigint(20) NOT NULL COMMENT '修改时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_tenant_info_kptenantid` (`kp`,`tenant_id`),
+  KEY `idx_tenant_id` (`tenant_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='tenant_info';
+
+CREATE TABLE `users` (
+	`username` varchar(50) NOT NULL PRIMARY KEY,
+	`password` varchar(500) NOT NULL,
+	`enabled` boolean NOT NULL
+);
+
+CREATE TABLE `roles` (
+	`username` varchar(50) NOT NULL,
+	`role` varchar(50) NOT NULL,
+	UNIQUE INDEX `idx_user_role` (`username` ASC, `role` ASC) USING BTREE
+);
+
+CREATE TABLE `permissions` (
+    `role` varchar(50) NOT NULL,
+    `resource` varchar(255) NOT NULL,
+    `action` varchar(8) NOT NULL,
+    UNIQUE INDEX `uk_role_permission` (`role`,`resource`,`action`) USING BTREE
+);
+
+INSERT INTO users (username, password, enabled) VALUES ('nacos', '$2a$10$EuWPZHzz32dJN7jexM34MOeYirDdFAZm2kuWj7VEOJhhZkDrxfvUu', TRUE);
+
+INSERT INTO roles (username, role) VALUES ('nacos', 'ROLE_ADMIN');
+
+', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=24, category=code_block, lang=}, score=null}, Document{id='17e5034e-fdad-4090-a73a-0d2bd06bfd22', text='接着，在 nacos_config 库中，执行上述 SQL 语句, 会创建好下图中的这些表：', media='null', metadata={originalFileName=### 解决启动报错问题.md, category=code_inline, mdStorageId=24}, score=null}, Document{id='e2842e2c-58e2-4989-927a-ac5cd5ed4e78', text='前置工作完成后，编辑 /config 目录下的 application.properties 配置文件，如下：', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=24, category=code_inline, title=修改 Nacos 配置文件}, score=null}, Document{id='5546899c-28d0-4855-b151-d3efb72a8cb9', text='// 省略...
+spring.datasource.platform=mysql
+// 省略...
+db.url.0=jdbc:mysql://172.17.0.1:3306/nacos_config?${MYSQL_SERVICE_DB_PARAM:characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false}
+db.user.0=root # 改成你自己的数据库账号
+db.password.0=123456 # 改成你自己的数据库密码
+', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=24, category=code_block, lang=}, score=null}, Document{id='5cf9e15a-fa64-4736-9cee-5f098a7240dd', text='将 spring.datasource.platform 注释放开，数据源修改为使用 mysql; 修改数据库连接，由于我连接的是宿主机中的 MySQL, 所以 IP 是 172.17.0.1； 数据库名称修改为 nacos_config; 修改数据库用户名、密码；修改完成后，进行保存。', media='null', metadata={originalFileName=### 解决启动报错问题.md, category=code_inline, mdStorageId=24}, score=null}, Document{id='7e405855-06a6-47bf-8008-4efed79c5a9c', text='重新执行如下命令, 运行一个新的 Nacos 容器，让前面新修改的配置生效：', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=24, category=header_4, title=重新运行 Nacos 容器}, score=null}, Document{id='491bd905-690c-4251-9ffc-8a2cfd03f17b', text='docker run -d --name nacos --privileged -e MODE=standalone -e JVM_XMX=300m -e JVM_XMS=300m -p 8848:8848 -p 9848:9848  -v E:\docker\nacos\conf:/home/nacos/conf -v E:\docker\nacos\data:/home/nacos/data -v E:\docker\nacos\logs:/home/nacos/logs nacos/nacos-server:v2.2.3
+', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=24, category=code_block, lang=}, score=null}, Document{id='5730e4bb-cd43-4a43-b9c3-ff67a74a0442', text='浏览器访问链接 http://localhost:8848/nacos , 进入到 Nacos 管理后台，在 “命名空间” 菜单下，任意新建一个新的空间，如下图所示：查阅 nacos_config 数据库中的 tenant_info 表，若对应记录已落库，说明配置 Nacos 改为使用 MySQL 作为数据源成功了！', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=24, category=code_inline, title=测试一下}, score=null}]
+2025-11-09 17:42:40.417 [http-nio-8080-exec-7] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [删除 Markdown 问答文件], 入参: {"id":24}, 请求类: AiCustomerServiceController, 请求方法: deleteMarkdownFile =================================== 
+2025-11-09 17:42:40.497 [http-nio-8080-exec-7] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [删除 Markdown 问答文件], 耗时: 80ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-09 17:42:56.475 [http-nio-8080-exec-9] INFO  com.quanxiaoha.ai.robot.service.impl.CustomerServiceImpl - ## Markdown 问答文件存储成功, 文件名：### 解决启动报错问题.md -> 存储路径：E:\java_workspace\xiaoha-ai-robot\f417ea00-50e9-4861-a5ac-4bef1e201c70-### 解决启动报错问题.md
+2025-11-09 17:42:56.480 [event-handler-3] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## AiCustomerServiceMdUploadedEvent: AiCustomerServiceMdUploadedEvent(id=25, filePath=E:\java_workspace\xiaoha-ai-robot\f417ea00-50e9-4861-a5ac-4bef1e201c70-### 解决启动报错问题.md, metadatas={originalFileName=### 解决启动报错问题.md, mdStorageId=25})
+2025-11-09 17:42:56.485 [event-handler-3] INFO  com.quanxiaoha.ai.robot.event.listener.AiCustomerServiceMdUploadedListener - ## documents: [Document{id='2710989f-bb33-4e42-aaeb-88c58884dba7', text='部门小伙伴反馈，通过 Docker 来启动 Nacos 容器，有启动失败的情况发生，排查启动日志，发现报错 load derby-schema.sql error , 如下图所示：Nacos 默认会使用 Derby 数据库，错误信息提示加载 derby-schema.sql 脚本，进行初始化时出现了错误。要想解决上述问题，可以使用 MySQL 数据库替换掉 Derby。', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=25, category=code_inline, title=解决启动报错问题}, score=null}, Document{id='d229b773-397d-4569-9fed-832bc30cf04f', text='在使用 MySQL 替换 Derby 之前，我们进入到 E:/docker/nacos/conf 配置文件夹中，有两个重要的文件，等会需要使用到，如下图标注所示：', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=25, category=code_inline, title=两个重要文件}, score=null}, Document{id='830e90bc-8871-4aa9-8e7a-e022cd226b8d', text='①：Nacos 的配置文件，可修改数据库连接； ②：MySQL 数据库相关表的初始化脚本；', media='null', metadata={originalFileName=### 解决启动报错问题.md, category=blockquote, mdStorageId=25}, score=null}, Document{id='19a2d966-64b3-4c40-9a8c-2b28757324fe', text='通过 Navicat 打开 MySQL，新建一个名为 nacosc_config 的数据库，字符集使用 utf8mb4 , 如下图所示：nacos_config 数据库新建完毕后，将前面 mysql-schema.sql 脚本中的 SQL 语句复制出来，完整如下：', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=25, category=code_inline, title=新建 Nacos 数据库}, score=null}, Document{id='fb840271-e30b-47f0-af69-351e8a843098', text='/*
+ * Copyright 1999-2018 Alibaba Group Holding Ltd.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = config_info   */
+/******************************************/
+CREATE TABLE `config_info` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `data_id` varchar(255) NOT NULL COMMENT 'data_id',
+  `group_id` varchar(128) DEFAULT NULL,
+  `content` longtext NOT NULL COMMENT 'content',
+  `md5` varchar(32) DEFAULT NULL COMMENT 'md5',
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间',
+  `src_user` text COMMENT 'source user',
+  `src_ip` varchar(50) DEFAULT NULL COMMENT 'source ip',
+  `app_name` varchar(128) DEFAULT NULL,
+  `tenant_id` varchar(128) DEFAULT '' COMMENT '租户字段',
+  `c_desc` varchar(256) DEFAULT NULL,
+  `c_use` varchar(64) DEFAULT NULL,
+  `effect` varchar(64) DEFAULT NULL,
+  `type` varchar(64) DEFAULT NULL,
+  `c_schema` text,
+  `encrypted_data_key` text NOT NULL COMMENT '秘钥',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_configinfo_datagrouptenant` (`data_id`,`group_id`,`tenant_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='config_info';
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = config_info_aggr   */
+/******************************************/
+CREATE TABLE `config_info_aggr` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `data_id` varchar(255) NOT NULL COMMENT 'data_id',
+  `group_id` varchar(128) NOT NULL COMMENT 'group_id',
+  `datum_id` varchar(255) NOT NULL COMMENT 'datum_id',
+  `content` longtext NOT NULL COMMENT '内容',
+  `gmt_modified` datetime NOT NULL COMMENT '修改时间',
+  `app_name` varchar(128) DEFAULT NULL,
+  `tenant_id` varchar(128) DEFAULT '' COMMENT '租户字段',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_configinfoaggr_datagrouptenantdatum` (`data_id`,`group_id`,`tenant_id`,`datum_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='增加租户字段';
+
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = config_info_beta   */
+/******************************************/
+CREATE TABLE `config_info_beta` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `data_id` varchar(255) NOT NULL COMMENT 'data_id',
+  `group_id` varchar(128) NOT NULL COMMENT 'group_id',
+  `app_name` varchar(128) DEFAULT NULL COMMENT 'app_name',
+  `content` longtext NOT NULL COMMENT 'content',
+  `beta_ips` varchar(1024) DEFAULT NULL COMMENT 'betaIps',
+  `md5` varchar(32) DEFAULT NULL COMMENT 'md5',
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间',
+  `src_user` text COMMENT 'source user',
+  `src_ip` varchar(50) DEFAULT NULL COMMENT 'source ip',
+  `tenant_id` varchar(128) DEFAULT '' COMMENT '租户字段',
+  `encrypted_data_key` text NOT NULL COMMENT '秘钥',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_configinfobeta_datagrouptenant` (`data_id`,`group_id`,`tenant_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='config_info_beta';
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = config_info_tag   */
+/******************************************/
+CREATE TABLE `config_info_tag` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `data_id` varchar(255) NOT NULL COMMENT 'data_id',
+  `group_id` varchar(128) NOT NULL COMMENT 'group_id',
+  `tenant_id` varchar(128) DEFAULT '' COMMENT 'tenant_id',
+  `tag_id` varchar(128) NOT NULL COMMENT 'tag_id',
+  `app_name` varchar(128) DEFAULT NULL COMMENT 'app_name',
+  `content` longtext NOT NULL COMMENT 'content',
+  `md5` varchar(32) DEFAULT NULL COMMENT 'md5',
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间',
+  `src_user` text COMMENT 'source user',
+  `src_ip` varchar(50) DEFAULT NULL COMMENT 'source ip',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_configinfotag_datagrouptenanttag` (`data_id`,`group_id`,`tenant_id`,`tag_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='config_info_tag';
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = config_tags_relation   */
+/******************************************/
+CREATE TABLE `config_tags_relation` (
+  `id` bigint(20) NOT NULL COMMENT 'id',
+  `tag_name` varchar(128) NOT NULL COMMENT 'tag_name',
+  `tag_type` varchar(64) DEFAULT NULL COMMENT 'tag_type',
+  `data_id` varchar(255) NOT NULL COMMENT 'data_id',
+  `group_id` varchar(128) NOT NULL COMMENT 'group_id',
+  `tenant_id` varchar(128) DEFAULT '' COMMENT 'tenant_id',
+  `nid` bigint(20) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`nid`),
+  UNIQUE KEY `uk_configtagrelation_configidtag` (`id`,`tag_name`,`tag_type`),
+  KEY `idx_tenant_id` (`tenant_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='config_tag_relation';
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = group_capacity   */
+/******************************************/
+CREATE TABLE `group_capacity` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
+  `group_id` varchar(128) NOT NULL DEFAULT '' COMMENT 'Group ID，空字符表示整个集群',
+  `quota` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '配额，0表示使用默认值',
+  `usage` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '使用量',
+  `max_size` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '单个配置大小上限，单位为字节，0表示使用默认值',
+  `max_aggr_count` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '聚合子配置最大个数，，0表示使用默认值',
+  `max_aggr_size` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '单个聚合数据的子配置大小上限，单位为字节，0表示使用默认值',
+  `max_history_count` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '最大变更历史数量',
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_group_id` (`group_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='集群、各Group容量信息表';
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = his_config_info   */
+/******************************************/
+CREATE TABLE `his_config_info` (
+  `id` bigint(20) unsigned NOT NULL,
+  `nid` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `data_id` varchar(255) NOT NULL,
+  `group_id` varchar(128) NOT NULL,
+  `app_name` varchar(128) DEFAULT NULL COMMENT 'app_name',
+  `content` longtext NOT NULL,
+  `md5` varchar(32) DEFAULT NULL,
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `src_user` text,
+  `src_ip` varchar(50) DEFAULT NULL,
+  `op_type` char(10) DEFAULT NULL,
+  `tenant_id` varchar(128) DEFAULT '' COMMENT '租户字段',
+  `encrypted_data_key` text NOT NULL COMMENT '秘钥',
+  PRIMARY KEY (`nid`),
+  KEY `idx_gmt_create` (`gmt_create`),
+  KEY `idx_gmt_modified` (`gmt_modified`),
+  KEY `idx_did` (`data_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='多租户改造';
+
+
+/******************************************/
+/*   数据库全名 = nacos_config   */
+/*   表名称 = tenant_capacity   */
+/******************************************/
+CREATE TABLE `tenant_capacity` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
+  `tenant_id` varchar(128) NOT NULL DEFAULT '' COMMENT 'Tenant ID',
+  `quota` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '配额，0表示使用默认值',
+  `usage` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '使用量',
+  `max_size` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '单个配置大小上限，单位为字节，0表示使用默认值',
+  `max_aggr_count` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '聚合子配置最大个数',
+  `max_aggr_size` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '单个聚合数据的子配置大小上限，单位为字节，0表示使用默认值',
+  `max_history_count` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '最大变更历史数量',
+  `gmt_create` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '修改时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_tenant_id` (`tenant_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='租户容量信息表';
+
+
+CREATE TABLE `tenant_info` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `kp` varchar(128) NOT NULL COMMENT 'kp',
+  `tenant_id` varchar(128) default '' COMMENT 'tenant_id',
+  `tenant_name` varchar(128) default '' COMMENT 'tenant_name',
+  `tenant_desc` varchar(256) DEFAULT NULL COMMENT 'tenant_desc',
+  `create_source` varchar(32) DEFAULT NULL COMMENT 'create_source',
+  `gmt_create` bigint(20) NOT NULL COMMENT '创建时间',
+  `gmt_modified` bigint(20) NOT NULL COMMENT '修改时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_tenant_info_kptenantid` (`kp`,`tenant_id`),
+  KEY `idx_tenant_id` (`tenant_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='tenant_info';
+
+CREATE TABLE `users` (
+	`username` varchar(50) NOT NULL PRIMARY KEY,
+	`password` varchar(500) NOT NULL,
+	`enabled` boolean NOT NULL
+);
+
+CREATE TABLE `roles` (
+	`username` varchar(50) NOT NULL,
+	`role` varchar(50) NOT NULL,
+	UNIQUE INDEX `idx_user_role` (`username` ASC, `role` ASC) USING BTREE
+);
+
+CREATE TABLE `permissions` (
+    `role` varchar(50) NOT NULL,
+    `resource` varchar(255) NOT NULL,
+    `action` varchar(8) NOT NULL,
+    UNIQUE INDEX `uk_role_permission` (`role`,`resource`,`action`) USING BTREE
+);
+
+INSERT INTO users (username, password, enabled) VALUES ('nacos', '$2a$10$EuWPZHzz32dJN7jexM34MOeYirDdFAZm2kuWj7VEOJhhZkDrxfvUu', TRUE);
+
+INSERT INTO roles (username, role) VALUES ('nacos', 'ROLE_ADMIN');
+
+', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=25, category=code_block, lang=}, score=null}, Document{id='e40b2d42-7bd4-4e3d-b8d1-5aac4c58f9a0', text='接着，在 nacos_config 库中，执行上述 SQL 语句, 会创建好下图中的这些表：', media='null', metadata={originalFileName=### 解决启动报错问题.md, category=code_inline, mdStorageId=25}, score=null}, Document{id='e9af6ba8-0bf5-4f75-9a43-046f2c7d53e4', text='前置工作完成后，编辑 /config 目录下的 application.properties 配置文件，如下：', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=25, category=code_inline, title=修改 Nacos 配置文件}, score=null}, Document{id='6b41a9c3-3b92-4f7d-a506-ce178e19d7aa', text='// 省略...
+spring.datasource.platform=mysql
+// 省略...
+db.url.0=jdbc:mysql://172.17.0.1:3306/nacos_config?${MYSQL_SERVICE_DB_PARAM:characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false}
+db.user.0=root # 改成你自己的数据库账号
+db.password.0=123456 # 改成你自己的数据库密码
+', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=25, category=code_block, lang=}, score=null}, Document{id='d06a857d-8962-42e8-94e5-c6448d06e9f5', text='将 spring.datasource.platform 注释放开，数据源修改为使用 mysql; 修改数据库连接，由于我连接的是宿主机中的 MySQL, 所以 IP 是 172.17.0.1； 数据库名称修改为 nacos_config; 修改数据库用户名、密码；修改完成后，进行保存。', media='null', metadata={originalFileName=### 解决启动报错问题.md, category=code_inline, mdStorageId=25}, score=null}, Document{id='b3b42cdc-56b3-4df3-9879-f06e98f0794d', text='重新执行如下命令, 运行一个新的 Nacos 容器，让前面新修改的配置生效：', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=25, category=header_4, title=重新运行 Nacos 容器}, score=null}, Document{id='eb935368-5994-44d9-be0b-f0df7e030756', text='docker run -d --name nacos --privileged -e MODE=standalone -e JVM_XMX=300m -e JVM_XMS=300m -p 8848:8848 -p 9848:9848  -v E:\docker\nacos\conf:/home/nacos/conf -v E:\docker\nacos\data:/home/nacos/data -v E:\docker\nacos\logs:/home/nacos/logs nacos/nacos-server:v2.2.3
+', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=25, category=code_block, lang=}, score=null}, Document{id='47f3e019-7e60-46f2-8a04-b68b500a62f9', text='浏览器访问链接 http://localhost:8848/nacos , 进入到 Nacos 管理后台，在 “命名空间” 菜单下，任意新建一个新的空间，如下图所示：查阅 nacos_config 数据库中的 tenant_info 表，若对应记录已落库，说明配置 Nacos 改为使用 MySQL 作为数据源成功了！', media='null', metadata={originalFileName=### 解决启动报错问题.md, mdStorageId=25, category=code_inline, title=测试一下}, score=null}]
+2025-11-09 17:45:27.412 [http-nio-8080-exec-2] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [Markdown 问答文件分页查询], 入参: {"current":1,"size":10}, 请求类: AiCustomerServiceController, 请求方法: findMarkdownFilePageList =================================== 
+2025-11-09 17:45:27.422 [http-nio-8080-exec-2] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [Markdown 问答文件分页查询], 耗时: 9ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"id":25,"originalFileName":"### 解决启动报错问题.md","fileSize":"13.88 KB","status":2,"createTime":"2025-11-09 17:42:56","updateTime":"2025-11-09 17:43:00","remark":null},{"id":23,"originalFileName":"整合微软 fetch-event-source 库：发送 Post 方式的 SSE 请求.md","fileSize":"11.66 KB","status":2,"createTime":"2025-11-09 17:42:04","updateTime":"2025-11-09 17:42:09","remark":null}],"total":2,"size":10,"current":1,"pages":1} =================================== 
+2025-11-09 21:29:28.799 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete

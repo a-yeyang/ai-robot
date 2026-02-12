@@ -1,0 +1,328 @@
+2025-10-15 08:28:45.536 [AI-Robot-HikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Thread starvation or clock leap detected (housekeeper delta=8h16m17s944ms408µs900ns).
+2025-10-15 14:35:28.524 [http-nio-8080-exec-3] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [Hm_lvt_75062b8ad5f18e178698c68645a1ff82=1756120785,1758363571;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-10-15 14:35:28.544 [http-nio-8080-exec-3] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [新建对话], 入参: {"message":"你用的什么模型"}, 请求类: ChatController, 请求方法: newChat =================================== 
+2025-10-15 14:35:28.567 [http-nio-8080-exec-3] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [新建对话], 耗时: 24ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"summary":"你用的什么模型","uuid":"1256e126-3b14-4786-a542-7e534bf4ed24"}} =================================== 
+2025-10-15 14:35:28.837 [http-nio-8080-exec-1] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求开始: [流式对话], 入参: {"message":"你用的什么模型","chatId":"1256e126-3b14-4786-a542-7e534bf4ed24","networkSearch":false,"modelName":"deepseek-r1","temperature":0.7}, 请求类: ChatController, 请求方法: chat =================================== 
+2025-10-15 14:35:28.850 [http-nio-8080-exec-1] INFO  com.quanxiaoha.ai.robot.aspect.ApiOperationLogAspect - ====== 请求结束: [流式对话], 耗时: 12ms, 出参: {"scanAvailable":true,"prefetch":-1} =================================== 
+2025-10-15 14:35:28.851 [http-nio-8080-exec-1] INFO  com.quanxiaoha.ai.robot.advisor.CustomChatMemoryAdvisor - ## 自定义聊天记忆 Advisor...
+2025-10-15 14:35:29.651 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:29.759 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:29.892 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:29.987 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.050 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.129 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.204 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.312 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.383 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.471 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.560 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.668 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.734 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.825 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:30.914 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.002 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.118 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.183 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.275 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.370 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.452 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.568 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.633 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.724 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.806 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.919 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:31.988 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.079 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.183 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.253 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.344 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.435 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.545 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.611 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.709 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.793 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.880 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:32.999 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.056 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.153 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.240 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.355 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.424 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.507 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.596 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.684 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.775 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.902 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:33.971 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.040 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.128 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.218 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.326 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.393 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.483 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.574 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.673 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.750 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.857 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:34.925 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.014 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.104 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.201 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.288 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.377 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.486 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.555 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.643 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.729 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.817 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:35.931 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.010 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.087 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.179 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.267 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.353 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.533 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.535 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.619 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.706 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.799 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.906 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:36.974 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.065 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.151 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.245 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.354 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.422 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.509 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.596 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.709 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.772 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.857 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:37.948 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.037 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.147 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.209 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.298 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.385 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.491 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.558 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.644 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.733 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.823 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.940 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:38.998 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.085 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.186 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.261 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.346 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.523 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.526 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.608 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.695 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.806 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.871 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:39.961 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:40.047 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:40.131 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:40.225 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:40.359 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:40.448 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:40.484 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: null
+2025-10-15 14:35:40.576 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 我是
+2025-10-15 14:35:40.661 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 由
+2025-10-15 14:35:40.753 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  **深度
+2025-10-15 14:35:40.859 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 求索（
+2025-10-15 14:35:40.925 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: DeepSeek
+2025-10-15 14:35:41.009 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ）**
+2025-10-15 14:35:41.099 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  开发的智能助手
+2025-10-15 14:35:41.208 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ，目前
+2025-10-15 14:35:41.277 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 使用的模型是
+2025-10-15 14:35:41.363 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  **DeepSe
+2025-10-15 14:35:41.473 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ek-R1
+2025-10-15 14:35:41.540 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: **。
+2025-10-15 14:35:41.626 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 这是一个强大的
+2025-10-15 14:35:41.737 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 大语言模型
+2025-10-15 14:35:41.804 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ，具有
+2025-10-15 14:35:41.914 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 以下特点：
+2025-10-15 14:35:41.978 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 
+
+---
+
+###
+2025-10-15 14:35:42.068 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  🌟
+2025-10-15 14:35:42.176 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  模型基本信息
+2025-10-15 14:35:42.247 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ：
+- **
+2025-10-15 14:35:42.334 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 模型名称**
+2025-10-15 14:35:42.445 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ：DeepSe
+2025-10-15 14:35:42.600 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ek-R1
+2025-10-15 14:35:42.711 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+- **上下文
+2025-10-15 14:35:42.784 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 长度**：
+2025-10-15 14:35:42.869 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 最多
+2025-10-15 14:35:42.977 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 支持 **128
+2025-10-15 14:35:43.053 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: K tokens
+2025-10-15 14:35:43.137 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: **，能
+2025-10-15 14:35:43.225 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 处理超
+2025-10-15 14:35:43.315 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 长文本（
+2025-10-15 14:35:43.426 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 如整
+2025-10-15 14:35:43.525 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 本书、
+2025-10-15 14:35:43.585 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 长
+2025-10-15 14:35:43.674 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 文档）
+2025-10-15 14:35:43.788 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+- **知识
+2025-10-15 14:35:43.855 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 截止时间
+2025-10-15 14:35:43.944 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: **：202
+2025-10-15 14:35:44.039 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 4年
+2025-10-15 14:35:44.156 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 7月
+2025-10-15 14:35:44.218 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+- **是否
+2025-10-15 14:35:44.313 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 联网
+2025-10-15 14:35:44.406 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: **：支持
+2025-10-15 14:35:44.499 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 联网搜索（
+2025-10-15 14:35:44.605 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 当你
+2025-10-15 14:35:44.677 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 开启
+2025-10-15 14:35:44.765 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 联网时）
+2025-10-15 14:35:44.876 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+- **
+2025-10-15 14:35:45.014 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 是否支持
+2025-10-15 14:35:45.068 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 多
+2025-10-15 14:35:45.127 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 模态**：
+2025-10-15 14:35:45.241 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 目前是纯
+2025-10-15 14:35:45.305 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 文本模型，
+2025-10-15 14:35:45.397 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: **不支持图像
+2025-10-15 14:35:45.511 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 识别**
+2025-10-15 14:35:45.571 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: （但可以
+2025-10-15 14:35:45.666 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 读取
+2025-10-15 14:35:45.752 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 上传的文档
+2025-10-15 14:35:45.861 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 内容）
+2025-10-15 14:35:45.929 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+- **
+2025-10-15 14:35:46.017 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 是否免费**
+2025-10-15 14:35:46.131 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ：**完全
+2025-10-15 14:35:46.195 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 免费使用
+2025-10-15 14:35:46.370 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ！
+2025-10-15 14:35:46.486 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 🎉**
+2025-10-15 14:35:46.551 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 
+
+---
+
+###
+2025-10-15 14:35:46.641 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  📚 我能
+2025-10-15 14:35:46.838 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 做什么？
+-
+2025-10-15 14:35:46.905 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  回答各种知识
+2025-10-15 14:35:46.993 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 类
+2025-10-15 14:35:47.082 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 问题（
+2025-10-15 14:35:47.171 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 科技、历史
+2025-10-15 14:35:47.283 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 、文化等
+2025-10-15 14:35:47.348 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ）  
+-
+2025-10-15 14:35:47.444 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  写作辅助
+2025-10-15 14:35:47.597 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: （写
+2025-10-15 14:35:47.641 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 文章、改
+2025-10-15 14:35:47.708 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 简历、起
+2025-10-15 14:35:47.798 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 标题）
+2025-10-15 14:35:47.888 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+- 代码
+2025-10-15 14:35:47.998 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 生成
+2025-10-15 14:35:48.072 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 与调试
+2025-10-15 14:35:48.178 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: （支持
+2025-10-15 14:35:48.245 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  Python、Java
+2025-10-15 14:35:48.339 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 、C++
+2025-10-15 14:35:48.428 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  等）
+2025-10-15 14:35:48.540 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+-
+2025-10-15 14:35:48.602 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  阅读分析
+2025-10-15 14:35:48.692 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 你上传的
+2025-10-15 14:35:48.815 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 文档
+2025-10-15 14:35:48.893 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: （PDF、
+2025-10-15 14:35:48.960 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: Word、PPT
+2025-10-15 14:35:49.058 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 、Excel、
+2025-10-15 14:35:49.146 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: txt
+2025-10-15 14:35:49.249 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  等）
+2025-10-15 14:35:49.320 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+- 中
+2025-10-15 14:35:49.409 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 英文
+2025-10-15 14:35:49.501 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 翻译
+2025-10-15 14:35:49.590 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 、润
+2025-10-15 14:35:49.681 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 色、
+2025-10-15 14:35:49.793 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 改写等
+2025-10-15 14:35:49.864 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+
+---
+2025-10-15 14:35:50.043 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 
+
+###
+2025-10-15 14:35:50.163 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  ❓你
+2025-10-15 14:35:50.256 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 还可以
+2025-10-15 14:35:50.325 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 问我：
+-
+2025-10-15 14:35:50.411 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  模型
+2025-10-15 14:35:50.499 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 的技术
+2025-10-15 14:35:50.624 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 细节？
+2025-10-15 14:35:50.706 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+-
+2025-10-15 14:35:50.776 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  如何
+2025-10-15 14:35:50.864 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 更好地
+2025-10-15 14:35:51.808 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 使用我？
+2025-10-15 14:35:51.921 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+-
+2025-10-15 14:35:51.996 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  与其他
+2025-10-15 14:35:52.083 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 模型（
+2025-10-15 14:35:52.170 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 如 GPT-
+2025-10-15 14:35:52.279 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 4、
+2025-10-15 14:35:52.365 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: Claude、
+2025-10-15 14:35:52.499 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: Gemini）
+2025-10-15 14:35:52.523 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 的
+2025-10-15 14:35:52.629 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 对比？
+2025-10-15 14:35:52.693 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:   
+-
+2025-10-15 14:35:52.793 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk:  未来
+2025-10-15 14:35:52.877 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 会不会
+2025-10-15 14:35:52.986 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 支持多模态
+2025-10-15 14:35:53.047 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: （图像/
+2025-10-15 14:35:53.135 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 语音）
+2025-10-15 14:35:53.225 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ？
+2025-10-15 14:35:53.317 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 
+
+欢迎
+2025-10-15 14:35:53.426 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 随时问我
+2025-10-15 14:35:53.489 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: ，我会尽力
+2025-10-15 14:35:53.575 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 为你解答！
+2025-10-15 14:35:53.595 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 😊
+2025-10-15 14:35:53.595 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - ## chunk: 
+2025-10-15 14:35:53.595 [boundedElastic-3] INFO  com.quanxiaoha.ai.robot.advisor.CustomStreamLoggerAndMessage2DBAdvisor - 
+==== FULL AI RESPONSE ====
+我是由 **深度求索（DeepSeek）** 开发的智能助手，目前使用的模型是 **DeepSeek-R1**。这是一个强大的大语言模型，具有以下特点：
+
+---
+
+### 🌟 模型基本信息：
+- **模型名称**：DeepSeek-R1  
+- **上下文长度**：最多支持 **128K tokens**，能处理超长文本（如整本书、长文档）  
+- **知识截止时间**：2024年7月  
+- **是否联网**：支持联网搜索（当你开启联网时）  
+- **是否支持多模态**：目前是纯文本模型，**不支持图像识别**（但可以读取上传的文档内容）  
+- **是否免费**：**完全免费使用！🎉**
+
+---
+
+### 📚 我能做什么？
+- 回答各种知识类问题（科技、历史、文化等）  
+- 写作辅助（写文章、改简历、起标题）  
+- 代码生成与调试（支持 Python、Java、C++ 等）  
+- 阅读分析你上传的文档（PDF、Word、PPT、Excel、txt 等）  
+- 中英文翻译、润色、改写等  
+
+---
+
+### ❓你还可以问我：
+- 模型的技术细节？  
+- 如何更好地使用我？  
+- 与其他模型（如 GPT-4、Claude、Gemini）的对比？  
+- 未来会不会支持多模态（图像/语音）？
+
+欢迎随时问我，我会尽力为你解答！😊
+========================
