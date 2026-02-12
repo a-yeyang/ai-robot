@@ -12,8 +12,6 @@ import com.bit.ai.robot.service.SearXNGService;
 import com.bit.ai.robot.service.SearchResultContentFetcherService;
 import com.bit.ai.robot.utils.PageResponse;
 import com.bit.ai.robot.utils.Response;
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClient;
@@ -41,7 +39,6 @@ import java.util.List;
  * @Version: v1.0.0
  * @Description: 对话
  **/
-@Tag(name = "AI 对话", description = "AI 对话相关接口")
 @RestController
 @RequestMapping("/chat")
 @Slf4j
@@ -63,7 +60,6 @@ public class ChatController {
     @Resource
     private SearchResultContentFetcherService searchResultContentFetcherService;
 
-    @Operation(summary = "新建对话", description = "创建一个新的对话会话")
     @PostMapping("/new")
     @ApiOperationLog(description = "新建对话")
     public Response<?> newChat(@RequestBody @Validated NewChatReqVO newChatReqVO) {
@@ -74,7 +70,6 @@ public class ChatController {
      * 流式对话
      * @return
      */
-    @Operation(summary = "流式对话", description = "与 AI 进行流式对话，支持联网搜索")
     @PostMapping(value = "/completion", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     @ApiOperationLog(description = "流式对话")
     public Flux<AIResponse> chat(@RequestBody @Validated AiChatReqVO aiChatReqVO) {
@@ -129,28 +124,24 @@ public class ChatController {
 
     }
 
-    @Operation(summary = "查询历史对话", description = "分页查询用户的历史对话列表")
     @PostMapping("/list")
     @ApiOperationLog(description = "查询历史对话")
     public PageResponse<FindChatHistoryPageListRspVO> findChatHistoryPageList(@RequestBody @Validated FindChatHistoryPageListReqVO findChatHistoryPageListReqVO) {
         return chatService.findChatHistoryPageList(findChatHistoryPageListReqVO);
     }
 
-    @Operation(summary = "查询对话历史消息", description = "分页查询指定对话的历史消息记录")
     @PostMapping("/message/list")
     @ApiOperationLog(description = "查询对话历史消息")
     public PageResponse<FindChatHistoryMessagePageListRspVO> findChatMessagePageList(@RequestBody @Validated FindChatHistoryMessagePageListReqVO findChatHistoryMessagePageListReqVO) {
         return chatService.findChatHistoryMessagePageList(findChatHistoryMessagePageListReqVO);
     }
 
-    @Operation(summary = "重命名对话摘要", description = "修改指定对话的标题摘要")
     @PostMapping("/summary/rename")
     @ApiOperationLog(description = "重命名对话摘要")
     public Response<?> renameChatSummary(@RequestBody @Validated RenameChatReqVO renameChatReqVO) {
         return chatService.renameChatSummary(renameChatReqVO);
     }
 
-    @Operation(summary = "删除对话", description = "删除指定的对话会话及其所有消息记录")
     @PostMapping("/delete")
     @ApiOperationLog(description = "删除对话")
     public Response<?> deleteChat(@RequestBody @Validated DeleteChatReqVO deleteChatReqVO) {

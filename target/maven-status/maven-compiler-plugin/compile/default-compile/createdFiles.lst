@@ -65,7 +65,6 @@ com\bit\ai\robot\advisor\CustomStreamLoggerAndMessage2DBAdvisor.class
 com\bit\ai\robot\model\vo\customerService\FindMarkdownFilePageListReqVO.class
 com\bit\ai\robot\model\vo\chat\FindChatHistoryMessagePageListReqVO.class
 com\bit\ai\robot\domain\mapper\AiCustomerServiceMdStorageMapper.class
-com\bit\ai\robot\config\OpenApiConfig.class
 com\bit\ai\robot\utils\PageResponse.class
 com\bit\ai\robot\service\impl\SearXNGServiceImpl$1NodeWithUrlAndScore.class
 com\bit\ai\robot\model\dto\SearchResultDTO$SearchResultDTOBuilder.class

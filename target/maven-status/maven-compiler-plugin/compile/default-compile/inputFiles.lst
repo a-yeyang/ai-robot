@@ -11,7 +11,6 @@ D:\xiaoha-ai-robot-springboot\src\main\java\com\bit\ai\robot\config\CorsConfig.j
 D:\xiaoha-ai-robot-springboot\src\main\java\com\bit\ai\robot\config\JacksonConfig.java
 D:\xiaoha-ai-robot-springboot\src\main\java\com\bit\ai\robot\config\MybatisPlusConfig.java
 D:\xiaoha-ai-robot-springboot\src\main\java\com\bit\ai\robot\config\OkHttpConfig.java
-D:\xiaoha-ai-robot-springboot\src\main\java\com\bit\ai\robot\config\OpenApiConfig.java
 D:\xiaoha-ai-robot-springboot\src\main\java\com\bit\ai\robot\config\ThreadPoolConfig.java
 D:\xiaoha-ai-robot-springboot\src\main\java\com\bit\ai\robot\constant\DateConstants.java
 D:\xiaoha-ai-robot-springboot\src\main\java\com\bit\ai\robot\controller\AiCustomerServiceController.java

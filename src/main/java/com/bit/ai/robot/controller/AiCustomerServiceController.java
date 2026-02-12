@@ -7,8 +7,6 @@ import com.bit.ai.robot.aspect.ApiOperationLog;
 import com.bit.ai.robot.service.CustomerService;
 import com.bit.ai.robot.utils.PageResponse;
 import com.bit.ai.robot.utils.Response;
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClient;
@@ -33,7 +31,6 @@ import java.util.List;
  * @Version: v1.0.0
  * @Description: AI 客服
  **/
-@Tag(name = "AI 智能客服", description = "AI 智能客服相关接口")
 @RestController
 @RequestMapping("/customer-service")
 @Slf4j
@@ -58,20 +55,17 @@ public class AiCustomerServiceController {
      * @param file
      * @return
      */
-    @Operation(summary = "上传 Markdown 文件", description = "上传 Markdown 格式的问答知识库文件")
     @PostMapping(value = "/md/upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public Response<?> uploadMarkdownFile(@RequestPart(value = "file", required = false) MultipartFile file) {
         return customerService.uploadMarkdownFile(file);
     }
 
-    @Operation(summary = "删除 Markdown 文件", description = "删除已上传的 Markdown 问答文件")
     @PostMapping("/md/delete")
     @ApiOperationLog(description = "删除 Markdown 问答文件")
     public Response<?> deleteMarkdownFile(@RequestBody @Validated DeleteMarkdownFileReqVO deleteMarkdownFileReqVO) {
         return customerService.deleteMarkdownFile(deleteMarkdownFileReqVO);
     }
 
-    @Operation(summary = "查询 Markdown 文件列表", description = "分页查询已上传的 Markdown 问答文件列表")
     @PostMapping("/md/list")
     @ApiOperationLog(description = "Markdown 问答文件分页查询")
     public PageResponse<FindMarkdownFilePageListRspVO> findMarkdownFilePageList(@RequestBody @Validated FindMarkdownFilePageListReqVO findMarkdownFilePageListReqVO) {
