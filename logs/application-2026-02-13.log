@@ -5922,3 +5922,20 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2026-02-13 02:34:35.957 [main] INFO  com.bit.ai.robot.Application - Started Application in 2.115 seconds (process running for 2.653)
 2026-02-13 02:34:40.949 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
 2026-02-13 02:34:40.955 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-13 16:53:20.268 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bit.ai.robot.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-13 16:53:20.336 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bit.ai.robot.Application for test class com.bit.ai.robot.ApplicationTests
+2026-02-13 16:53:20.584 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-02-13 16:53:20.624 [main] INFO  com.bit.ai.robot.ApplicationTests - Starting ApplicationTests using Java 21.0.8 with PID 38916 (started by admin in D:\xiaoha-ai-robot-springboot)
+2026-02-13 16:53:20.630 [main] INFO  com.bit.ai.robot.ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 16:53:22.897 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Using the vector table name: t_vector_store. Is empty: false
+2026-02-13 16:53:22.899 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - Initializing PGVectorStore schema for table: t_vector_store in schema: public
+2026-02-13 16:53:22.899 [main] INFO  org.springframework.ai.vectorstore.pgvector.PgVectorStore - vectorTableValidationsEnabled false
+2026-02-13 16:53:23.660 [main] INFO  com.baomidou.mybatisplus.extension.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@1de6932a
+2026-02-13 16:53:23.879 [main] INFO  com.bit.ai.robot.ApplicationTests - Started ApplicationTests in 3.471 seconds (process running for 4.299)
+2026-02-13 16:53:25.102 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.bit.ai.robot.MybatisPlusTests]: MybatisPlusTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-13 16:53:25.104 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.bit.ai.robot.Application for test class com.bit.ai.robot.MybatisPlusTests
+2026-02-13 16:53:25.147 [main] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Starting...
+2026-02-13 16:53:25.336 [main] INFO  com.zaxxer.hikari.pool.HikariPool - AI-Robot-HikariCP - Added connection com.p6spy.engine.wrapper.ConnectionWrapper@3f05b8e2
+2026-02-13 16:53:25.337 [main] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Start completed.
+2026-02-13 16:53:25.393 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown initiated...
+2026-02-13 16:53:25.394 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - AI-Robot-HikariCP - Shutdown completed.
