@@ -12,8 +12,8 @@
     <groupId>com.bit</groupId>
     <artifactId>ai-robot</artifactId>
     <version>${revision}</version>
-    <name>xiaoha-ai-robot-springboot</name>
-    <description>小哈 AI 机器人</description>
+    <name>ai-robot-springboot</name>
+    <description>AI 智能机器人</description>
 
     <properties>
         <!-- 项目版本 -->

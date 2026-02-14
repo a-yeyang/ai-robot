@@ -1,5 +1,8 @@
 package com.bit.ai.robot.controller;
 
+import com.bit.ai.robot.advisor.CustomerServiceStreamAdvisor;
+import com.bit.ai.robot.domain.mapper.ChatMessageMapper;
+import com.bit.ai.robot.model.vo.chat.AIResponse;
 import com.bit.ai.robot.model.vo.customerService.*;
 import com.google.common.collect.Lists;
 import com.bit.ai.robot.advisor.CustomerServiceAdvisor;
@@ -18,6 +21,7 @@ import org.springframework.ai.openai.api.OpenAiApi;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
+import org.springframework.transaction.support.TransactionTemplate;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -40,6 +44,10 @@ public class AiCustomerServiceController {
     private CustomerService customerService;
     @Resource
     private VectorStore vectorStore;
+    @Resource
+    private ChatMessageMapper chatMessageMapper;
+    @Resource
+    private TransactionTemplate transactionTemplate;
 
     @Value("${spring.ai.openai.base-url}")
     private String baseUrl;
@@ -82,9 +90,12 @@ public class AiCustomerServiceController {
      * 流式对话
      * @return
      */
-    @GetMapping(value = "/chat/completion", produces = "text/html;charset=utf-8")
+    @PostMapping(value = "/completion", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     @ApiOperationLog(description = "AI 智能客服对话")
-    public Flux<String> chat(@RequestParam(value = "message") String userMessage) {
+    public Flux<AIResponse> chat(@RequestBody @Validated AiCustomerServiceChatReqVO aiCustomerServiceChatReqVO) {
+        // 用户消息
+        String userMessage = aiCustomerServiceChatReqVO.getMessage();
+        
         // 构建 ChatModel
         ChatModel chatModel = OpenAiChatModel.builder()
                 .openAiApi(OpenAiApi.builder()
@@ -105,6 +116,7 @@ public class AiCustomerServiceController {
         // Advisor 集合
         List<Advisor> advisors = Lists.newArrayList();
         advisors.add(new CustomerServiceAdvisor(vectorStore)); // 检索向量库，组合增强提示词
+        advisors.add(new CustomerServiceStreamAdvisor(chatMessageMapper, aiCustomerServiceChatReqVO, transactionTemplate)); // 保存对话到数据库
 
         // 应用 Advisor 集合
         chatClientRequestSpec.advisors(advisors);
@@ -112,7 +124,8 @@ public class AiCustomerServiceController {
         // 流式输出
         return chatClientRequestSpec
                 .stream()
-                .content();
+                .content()
+                .mapNotNull(text -> AIResponse.builder().v(text).build()); // 构建返参 AIResponse
     }
 
 }

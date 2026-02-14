@@ -22,6 +22,7 @@ com\bit\ai\robot\aspect\ApiOperationLogAspect.class
 com\bit\ai\robot\model\vo\chat\AIResponse.class
 com\bit\ai\robot\service\ChatService.class
 com\bit\ai\robot\config\CorsConfig.class
+com\bit\ai\robot\advisor\CustomerServiceStreamAdvisor.class
 com\bit\ai\robot\config\OkHttpConfig.class
 com\bit\ai\robot\domain\dos\ChatMessageDO.class
 com\bit\ai\robot\reader\MarkdownReader.class

@@ -201,30 +201,59 @@ const sendMessage = async (payload) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(requestBody),
+      onopen: async (response) => {
+        console.log('SSE连接已打开，状态:', response.status)
+        if (response.ok) {
+          return; // 正常情况
+        } else if (response.status >= 400 && response.status < 500 && response.status !== 429) {
+          // 客户端错误，不重试
+          console.error('客户端错误:', response.status)
+          throw new Error(`客户端错误: ${response.status}`)
+        }
+      },
       onmessage(msg) {
+        console.log('收到SSE消息, event:', msg.event, 'data:', msg.data)
         if (msg.event === '') {
           // 收到第一条数据后设置 loading 为 false
           if (lastMessage.loading) {
               lastMessage.loading = false;
           }
-          // 解析 JSON
-          let parseJson = JSON.parse(msg.data)
-          // 持续追加流式回答
-          responseText += parseJson.v
+          try {
+            // 解析 JSON
+            let parseJson = JSON.parse(msg.data)
+            console.log('解析成功, v:', parseJson.v)
+            // 持续追加流式回答
+            responseText += parseJson.v
 
-          // 更新最后一条消息
-          chatList.value[chatList.value.length - 1].content = responseText
-          // 滚动到底部
-          scrollToBottom()
+            // 更新最后一条消息
+            chatList.value[chatList.value.length - 1].content = responseText
+            // 滚动到底部
+            scrollToBottom()
+          } catch (e) {
+            console.error('解析消息失败:', e, 'msg.data:', msg.data)
+            // 不要中断连接，继续接收后续消息
+          }
         }
         else if (msg.event === 'close') {
-          console.log('-- sse close')
+          console.log('-- 收到close事件')
           controller.abort();
         }
       },
       onerror(err) {
-        throw err;    // 必须 throw 才能停止 
-      }
+        console.error('SSE连接错误详情:', err)
+        console.error('错误类型:', err.constructor.name)
+        console.error('错误消息:', err.message)
+        // 记录错误但不抛出，让连接自然结束
+        lastMessage.loading = false
+        
+        // 不要throw，让连接保持开启
+        // 只在用户主动取消时才throw
+        return; // 不抛出错误，继续保持连接
+      },
+      onclose() {
+        console.log('SSE连接已关闭')
+      },
+      openWhenHidden: true // 即使标签页不可见也保持连接
     })
   } catch (error) {
     console.error('发送消息错误: ', error)

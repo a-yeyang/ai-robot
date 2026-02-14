@@ -62,7 +62,7 @@
 
         <!-- 提问输入框 -->
         <ChatInputBox v-model="chatMessage" containerClass="sticky max-w-3xl mx-auto bg-white bottom-8 left-0 w-full"
-          @sendMessage="sendMessage" placeholder="向小哈 AI 智能客服询问" :showModelDropdown="false" :showNetworkSearch="false"/>
+          @sendMessage="sendMessage" placeholder="向 AI 智能客服询问" :showModelDropdown="false" :showNetworkSearch="false"/>
       </div>
 
       <!-- 抽屉：客服问答文件管理 -->
@@ -215,7 +215,7 @@ const chatMessage = ref(history.state?.firstMessage || '')
 const chatContainer = ref(null)
 
 // 聊天记录，默认给一个欢迎语
-const chatList = ref([{ role: 'assistant', content: '你好呀！我是 “犬小哈项目实战专栏” 的 AI 智能客服，基于 Spring AI 开发，欢迎向我咨询项目相关问题哈 😁', loading: false }])
+const chatList = ref([{ role: 'assistant', content: '你好呀！我是 AI 智能客服，基于 Spring AI 开发，欢迎向我咨询项目相关问题哈 😁', loading: false }])
 
 // 对话 ID
 const chatId = ref(null)
@@ -263,15 +263,19 @@ const sendMessage = async () => {
           if (lastMessage.loading) {
               lastMessage.loading = false;
           }
-          // 解析 JSON
-          let parseJson = JSON.parse(msg.data)
-          // 持续追加流式回答
-          responseText += parseJson.v
+          try {
+            // 解析 JSON
+            let parseJson = JSON.parse(msg.data)
+            // 持续追加流式回答
+            responseText += parseJson.v
 
-          // 更新最后一条消息
-          chatList.value[chatList.value.length - 1].content = responseText
-          // 滚动到底部
-          scrollToBottom()
+            // 更新最后一条消息
+            chatList.value[chatList.value.length - 1].content = responseText
+            // 滚动到底部
+            scrollToBottom()
+          } catch (e) {
+            console.error('解析消息失败:', e, 'msg.data:', msg.data)
+          }
         }
         else if (msg.event === 'close') {
           console.log('-- sse close')
@@ -279,6 +283,7 @@ const sendMessage = async () => {
         }
       },
       onerror(err) {
+        console.error('SSE连接错误:', err)
         throw err;    // 必须 throw 才能停止 
       }
     })

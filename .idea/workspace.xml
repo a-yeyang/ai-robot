@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c150ffcb-fce9-4fb0-971d-ef3200e6e3b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application-2026-02-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application-2026-02-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error-2026-02-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error-2026-02-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bit/ai/robot/advisor/CustomerServiceAdvisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bit/ai/robot/advisor/CustomerServiceAdvisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bit/ai/robot/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bit/ai/robot/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bit/ai/robot/controller/AiCustomerServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bit/ai/robot/controller/AiCustomerServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ai-robot-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ai-robot-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ai-robot-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/ai-robot-1.0.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/advisor/CustomChatMemoryAdvisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/advisor/CustomChatMemoryAdvisor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/advisor/CustomStreamLoggerAndMessage2DBAdvisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/advisor/CustomStreamLoggerAndMessage2DBAdvisor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/advisor/CustomerServiceAdvisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/advisor/CustomerServiceAdvisor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/advisor/NetworkSearchAdvisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/advisor/NetworkSearchAdvisor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/aspect/ApiOperationLogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/aspect/ApiOperationLogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/AsyncEventConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/AsyncEventConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/ChatClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/ChatClientConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/JacksonConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/JacksonConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/MybatisPlusConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/MybatisPlusConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/OkHttpConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/OkHttpConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/ThreadPoolConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/config/ThreadPoolConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/constant/DateConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/constant/DateConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/controller/AiCustomerServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/controller/AiCustomerServiceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/controller/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/controller/ChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/AiCustomerServiceMdStorageDO$AiCustomerServiceMdStorageDOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/AiCustomerServiceMdStorageDO$AiCustomerServiceMdStorageDOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/AiCustomerServiceMdStorageDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/AiCustomerServiceMdStorageDO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/ChatDO$ChatDOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/ChatDO$ChatDOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/ChatDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/ChatDO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/ChatMessageDO$ChatMessageDOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/ChatMessageDO$ChatMessageDOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/ChatMessageDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/dos/ChatMessageDO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/mapper/AiCustomerServiceMdStorageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/mapper/AiCustomerServiceMdStorageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/mapper/ChatMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/mapper/ChatMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/mapper/ChatMessageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/domain/mapper/ChatMessageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/enums/AiCustomerServiceMdStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/enums/AiCustomerServiceMdStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/enums/ResponseCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/enums/ResponseCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/event/AiCustomerServiceMdUploadedEvent$AiCustomerServiceMdUploadedEventBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/event/AiCustomerServiceMdUploadedEvent$AiCustomerServiceMdUploadedEventBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/event/AiCustomerServiceMdUploadedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/event/AiCustomerServiceMdUploadedEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/event/listener/AiCustomerServiceMdUploadedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/event/listener/AiCustomerServiceMdUploadedListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/exception/BizException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/exception/BizException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/common/BasePageQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/common/BasePageQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/dto/SearchResultDTO$SearchResultDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/dto/SearchResultDTO$SearchResultDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/dto/SearchResultDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/dto/SearchResultDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/AIResponse$AIResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/AIResponse$AIResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/AIResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/AIResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/AiChatReqVO$AiChatReqVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/AiChatReqVO$AiChatReqVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/AiChatReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/AiChatReqVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/DeleteChatReqVO$DeleteChatReqVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/DeleteChatReqVO$DeleteChatReqVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/DeleteChatReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/DeleteChatReqVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryMessagePageListReqVO$FindChatHistoryMessagePageListReqVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryMessagePageListReqVO$FindChatHistoryMessagePageListReqVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryMessagePageListReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryMessagePageListReqVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryMessagePageListRspVO$FindChatHistoryMessagePageListRspVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryMessagePageListRspVO$FindChatHistoryMessagePageListRspVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryMessagePageListRspVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryMessagePageListRspVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryPageListReqVO$FindChatHistoryPageListReqVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryPageListReqVO$FindChatHistoryPageListReqVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryPageListReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryPageListReqVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryPageListRspVO$FindChatHistoryPageListRspVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryPageListRspVO$FindChatHistoryPageListRspVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryPageListRspVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/FindChatHistoryPageListRspVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/NewChatReqVO$NewChatReqVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/NewChatReqVO$NewChatReqVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/NewChatReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/NewChatReqVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/NewChatRspVO$NewChatRspVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/NewChatRspVO$NewChatRspVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/NewChatRspVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/NewChatRspVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/RenameChatReqVO$RenameChatReqVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/RenameChatReqVO$RenameChatReqVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/RenameChatReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/chat/RenameChatReqVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/AiCustomerServiceChatReqVO$AiCustomerServiceChatReqVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/AiCustomerServiceChatReqVO$AiCustomerServiceChatReqVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/AiCustomerServiceChatReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/AiCustomerServiceChatReqVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/DeleteMarkdownFileReqVO$DeleteMarkdownFileReqVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/DeleteMarkdownFileReqVO$DeleteMarkdownFileReqVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/DeleteMarkdownFileReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/DeleteMarkdownFileReqVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/FindMarkdownFilePageListReqVO$FindMarkdownFilePageListReqVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/FindMarkdownFilePageListReqVO$FindMarkdownFilePageListReqVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/FindMarkdownFilePageListReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/FindMarkdownFilePageListReqVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/FindMarkdownFilePageListRspVO$FindMarkdownFilePageListRspVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/FindMarkdownFilePageListRspVO$FindMarkdownFilePageListRspVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/FindMarkdownFilePageListRspVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/FindMarkdownFilePageListRspVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/UpdateMarkdownFileReqVO$UpdateMarkdownFileReqVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/UpdateMarkdownFileReqVO$UpdateMarkdownFileReqVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/UpdateMarkdownFileReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/model/vo/customerService/UpdateMarkdownFileReqVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/reader/MarkdownReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/reader/MarkdownReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/ChatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/ChatService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/SearXNGService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/SearXNGService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/SearchResultContentFetcherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/SearchResultContentFetcherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/impl/ChatServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/impl/ChatServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/impl/SearXNGServiceImpl$1NodeWithUrlAndScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/impl/SearXNGServiceImpl$1NodeWithUrlAndScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/impl/SearXNGServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/impl/SearXNGServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/impl/SearchResultContentFetcherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/service/impl/SearchResultContentFetcherServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/JsonUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/JsonUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/JsonUtil$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/JsonUtil$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/JsonUtil$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/JsonUtil$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/PageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/PageResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bit/ai/robot/utils/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2026-02-13T16-53-19_406.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.bit.ai.robot.ApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.bit.ai.robot.MybatisPlusTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.bit.ai.robot.ApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.bit.ai.robot.MybatisPlusTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue3/src/components/ChatInputBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue3/src/components/ChatInputBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue3/src/components/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue3/src/components/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue3/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue3/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue3/src/views/ChatPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue3/src/views/ChatPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue3/src/views/CustomerServiceChatPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue3/src/views/CustomerServiceChatPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue3/src/views/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue3/src/views/Index.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\apache-maven-3.9.10" />
+        <option name="localRepository" value="E:\apache-maven-3.9.10\repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.9.10\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="39eGDDP13VBuzVsZtMg4yZIoWum" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.ai-robot [clean].executor": "Run",
+    "Maven.ai-robot [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "feat-new",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/ai-robot-springboot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ai-robot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bit.ai.robot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c150ffcb-fce9-4fb0-971d-ef3200e6e3b4" name="Changes" comment="" />
+      <created>1771049001379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771049001379</updated>
+      <workItem from="1771049002646" duration="1416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

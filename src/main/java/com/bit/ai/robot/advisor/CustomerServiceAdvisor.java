@@ -31,7 +31,7 @@ public class CustomerServiceAdvisor implements StreamAdvisor {
      * 联网搜索提示词模板
      */
     private static final PromptTemplate DEFAULT_PROMPT_TEMPLATE = new PromptTemplate("""
-            你是一个专业的客服，名为 “小哈 AI 助手”。请根据以下上下文信息回答用户问题。
+            你是一个专业的 AI 客服助手。请根据以下上下文信息回答用户问题。
             
             ## 上下文信息
             {context}
@@ -55,8 +55,7 @@ public class CustomerServiceAdvisor implements StreamAdvisor {
         
             **无法回答时的统一回复**：
             当遇到以下情况时，请统一回复：
-            "此问题暂时无法回答，可以加博主「小哈」的私人微信来咨询，记得添加时一定要备注 **星球咨询**"
-            微信二维码：![](https://img.bit.com/bit/173950927165691)
+            "此问题暂时无法回答，如有更多疑问，欢迎通过其他渠道联系我们获取支持"
         
             **图片展示**：
             如需要展示图片，请使用 Markdown 格式：![](图片链接)
@@ -90,7 +89,7 @@ public class CustomerServiceAdvisor implements StreamAdvisor {
 
         log.info("## 重新构建的增强提示词: {}", newPrompt.getUserMessage().getText());
 
-        // 重新构建 ChatClientRequest，设置重新构建的 “增强提示词”
+        // 重新构建 ChatClientRequest，设置重新构建的 "增强提示词"
         ChatClientRequest newChatClientRequest = ChatClientRequest.builder()
                 .prompt(newPrompt)
                 .build();
